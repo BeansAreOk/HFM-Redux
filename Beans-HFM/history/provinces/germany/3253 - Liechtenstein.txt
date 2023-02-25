@@ -1,5 +1,4 @@
-owner = LIE
-controller = LIE
-add_core = LIE
+owner = AUS
+controller = AUS
 trade_goods = cattle
 life_rating = 30

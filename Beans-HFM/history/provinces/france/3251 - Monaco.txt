@@ -1,6 +1,5 @@
-owner = MNC
-controller = MNC
-add_core = MNC
+owner = SAR
+controller = SAR
 #terrain = urban
 trade_goods = fruit
 life_rating = 35
