@@ -1037,3 +1037,213 @@ TRA = {
     color2= { 122 182 242 }
     color3= { 255 255 255  }
 }
+
+# Cornwall
+COR = {
+    color1= { 215 59 53  }
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+# Ulster
+ULS = {
+    color1= { 215 59 53  }
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+# Yorkshire 
+YOR = {
+    color1= { 215 59 53  }
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+# Onega
+ONE = {
+    color1= { 215 59 53  }
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+# Onega
+ONE = {
+    color1= { 215 59 53  }
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+# Samara
+SMA = {
+    color1= { 215 59 53  }
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+# Tsaritsyn
+TSA = {
+    color1= { 215 59 53  }
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+# Vorkuta
+VOR = {
+    color1= { 215 59 53  }
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+# Arkangelesk
+ARK = {
+    color1= { 215 59 53  }
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+# Voronezh
+VRO = {
+    color1= { 215 59 53  }
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+# Oryol
+ORY = {
+    color1= { 215 59 53  }
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+# Pskov
+PSK = {
+    color1= { 215 59 53  }
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+# Moskow
+MKW = {
+    color1= { 215 59 53  }
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+# Penza
+PEN = {
+    color1= { 215 59 53  }
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+# Vyatka
+VYA = {
+    color1= { 215 59 53  }
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+# Vologda
+VOL = {
+    color1= { 215 59 53  }
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+# Yaroslavl
+YAR = {
+    color1= { 215 59 53  }
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+# Galich
+GAL = {
+    color1= { 215 59 53  }
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+# Bryansk
+BSK = {
+    color1= { 215 59 53  }
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+# Smolensk
+SML = {
+    color1= { 215 59 53  }
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+# Novgorod
+NVG = {
+    color1= { 215 59 53  }
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+# Chita
+CHT = {
+    color1= { 215 59 53  }
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+# Irkutusk
+IRK = {
+    color1= { 215 59 53  }
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+# Tomsk
+TOM = {
+    color1= { 215 59 53  }
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+# Omsk
+OMS = {
+    color1= { 215 59 53  }
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+# Tyumen
+TYU = {
+    color1= { 215 59 53  }
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+# Perm
+PRM = {
+    color1= { 215 59 53  }
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+# Orsk
+ORS = {
+    color1= { 215 59 53  }
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+# Orenburg
+ORE = {
+    color1= { 215 59 53  }
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}
+
+# Novorossiya
+NVO = {
+    color1= { 215 59 53  }
+    color2= { 122 182 242 }
+    color3= { 255 255 255  }
+}

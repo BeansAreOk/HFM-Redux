@@ -2,5 +2,7 @@ owner = RUS
 controller = RUS
 add_core = RUS
 add_core = URA
+add_core = ORS
+add_core = SMA
 trade_goods = iron
 life_rating = 35
