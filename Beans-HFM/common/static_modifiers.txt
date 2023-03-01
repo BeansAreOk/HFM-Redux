@@ -173,7 +173,7 @@ peace = {
 }
 
 disarming = {
-	badboy = -0.16
+	badboy = -0.15
 }
 
 war_exhaustion = {
