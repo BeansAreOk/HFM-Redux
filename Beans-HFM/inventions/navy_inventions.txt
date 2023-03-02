@@ -653,25 +653,45 @@ pre_dreadnought = {
 	}
 }
 #steam_turbine_ships
+submarines = {
+    limit = {
+        steam_turbine_ships = 1
+        has_country_flag = existing_country
+    }
+    chance = {
+        base = 6
+        modifier = {
+            factor = 3
+            invention = torpedo_boats
+        }
+        modifier = {
+            factor = 3
+            naval_logistics = 1
+        }
+    }
+    effect = {
+        activate_unit = submarine
+    }
+}
 dreadnoughts = {
-	limit = {
-		steam_turbine_ships = 1
-		has_country_flag = existing_country
-	}
-	chance = {
-		base = 5
-		modifier = {
-			factor = 2
-			invention = pre_dreadnought
-		}
-		modifier = {
-			factor = 2
-			naval_logistics = 1
-		}
-	}
-	effect = {
-		activate_unit = dreadnought 
-	}
+    limit = {
+        steam_turbine_ships = 1
+        has_country_flag = existing_country
+    }
+    chance = {
+        base = 6
+        modifier = {
+            factor = 3
+            invention = pre_dreadnought
+        }
+        modifier = {
+            factor = 3
+            naval_logistics = 1
+        }
+    }
+    effect = {
+        activate_unit = dreadnought
+    }
 }
 #light_cruisers = {
 #	limit = { steam_turbine_ships = 1 }
