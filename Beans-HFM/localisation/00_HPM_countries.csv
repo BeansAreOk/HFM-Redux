@@ -1298,6 +1298,8 @@ ITA_democracy;The Italian Republic;;;;;;;;;;;;;;x
 ITA_bourgeois_dictatorship_ADJ;Italian;;;;;;;;;;;;;x
 ITA_proletarian_dictatorship;The People's Republic of Italy;;;;;;;;;;;;;x
 ITA_proletarian_dictatorship_ADJ;Italian;;;;;;;;;;;;;x
+ITA_fascist;The Italian Empire;;;;;;;;;;;;;x
+ITA_fascist_ADJ;Italian;;;;;;;;;;;;;x
 IVC;Ivory Coast;;;;;;;;;;;;x
 IVC_ADJ;Ivorian;;;;;;;;;;;;x
 IVC_liberal;Rally of the Republicans;;;;;;;;;;;;x
