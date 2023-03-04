@@ -658,7 +658,7 @@ political_decisions = {
 			OR = {
 				AND = {
 					is_our_vassal = KOR
-					year = 1910
+					year = 1900
 				}
 				KOR = {
 					civilized = yes
