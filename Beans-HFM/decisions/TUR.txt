@@ -280,6 +280,33 @@ political_decisions = {
 		}
 	}
 	
+	accepting_greeks =  {
+	picture = muslim_greek
+	potential = {
+			tag = TUR
+			government = democracy
+			year = 1890
+	}
+
+	allow = { 
+		mass_politics = 1
+		citizenship_policy = full_citizenship
+		year = 1910
+		government = democracy
+	}
+
+	effect {
+		prestige = 5	
+		add_accepted_culture = greek	
+		any_pop = {
+				limit = { is_primary_culture = yes }
+				militancy = 2.5
+				consciousness = 1.5
+			}
+	}
+	}
+
+			
 	christian_question_armenia = {
 		picture = christian_question_armenia
 		potential = {
