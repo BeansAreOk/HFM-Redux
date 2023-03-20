@@ -1,0 +1,116 @@
+political_decisions = {
+
+	unite_with_russia = {
+	picture = unite_with_russia
+		potential = {
+			primary_culture = russian
+			NOT = { tag = RUS }
+			exists = RUS
+			NOT = { has_country_flag = unite_with_russia }
+		}
+
+		allow = {
+			war = no
+			THIS = {
+				in_sphere = RUS
+			}
+			OR = {
+				vassal_of = RUS
+			}
+			RUS = {
+				war = no
+				is_vassal = no
+			}
+		}
+
+		effect = {
+			set_country_flag = unite_with_russia
+			random_country = {
+				limit = {
+					tag = RUS
+					ai = yes
+					THIS = { ai = yes }
+				}
+				inherit = THIS
+			}
+			random_country = {
+				limit = {
+					tag = RUS
+					ai = yes
+					THIS = { ai = no }
+				}
+				any_owned = { 
+						secede_province = THIS
+						THIS = { all_core = { add_core = RUS} }
+
+					 }
+				THIS = {
+					random_owned = {
+						limit = { province_id = 1008 }
+						owner = { capital = 1008 }
+					}
+					change_tag = RUS
+				}	
+			}
+			random_country = {
+				limit = {
+					tag = RUS
+					ai = no
+				}
+				country_event = 60130
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				government = fascist_dictatorship
+				RUS = {
+					NOT = { government = fascist_dictatorship }
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = { government = fascist_dictatorship }
+				RUS = { government = fascist_dictatorship }
+			}
+			modifier = {
+				factor = 1
+				NOT = { government = proletarian_dictatorship }
+				RUS = { government = proletarian_dictatorship }
+			}
+			modifier = {
+				factor = 1
+				OR = {
+					government = democracy
+					government = hms_government
+				}
+				RUS = {
+					NOT = {
+						government = democracy
+						government = hms_government
+						government = prussian_constitutionalism
+					}
+				}
+			}
+			modifier = {
+				factor = 1
+				OR = {
+					government = presidential_dictatorship
+					government = bourgeois_dictatorship
+				}
+			}
+			modifier = {
+				factor = 1
+				RUS = {
+					NOT = {
+						government = prussian_constitutionalism
+						government = hms_government
+						government = absolute_monarchy
+					}
+				}
+				government = absolute_monarchy
+			}
+		}
+	}
