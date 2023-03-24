@@ -1,22 +1,23 @@
-#New Foundland Asks for independence
+#Newfoundland Asks for independence
 country_event = {
-
+ 
 	id = 44330
-
+ 
 	title = "EVTNAME44330"
 	desc = "EVTDESC44330"
 	picture = "danishgovernment"
-
+ 
 	major = yes
-
+ 
 	trigger = {
 		war = no
 		year = 1907
 		any_owned_province = { is_core = NEW }
 		NOT = { exists = NEW }
+		NOT = { has_country_flag = NEW_independence_refused }
 		is_possible_vassal = NEW
 	}
-
+ 
 	mean_time_to_happen = {
 		months = 6
 		modifier = {
@@ -47,7 +48,7 @@ country_event = {
 			exists = NZL
 		}
 	}
-
+ 
 	option = {
 		name = "EVT44330OPTA"
 		clr_country_flag = NEW_independence_refused
@@ -127,7 +128,7 @@ country_event = {
 				factor = 2.0
 				exists = CAN
 			}
-			
+ 
 		}	
 	}
 	option = {
@@ -208,16 +209,16 @@ country_event = {
 		}	
 	}
 }
-
+ 
 country_event = {
-	
+ 
 	id = 44331
-
+ 
 	title = "EVTNAME44331"
 	desc = "EVTDESC44331"
 	picture = "danishgovernment"
 	major = yes
-
+ 
 	trigger = {
 		tag = NEW
 		war = no
@@ -231,11 +232,11 @@ country_event = {
 			vassal_of = ENL
 		}
 	}
-
+ 
 	mean_time_to_happen = {
 		months = 6
 	}
-
+ 
 	option = {
 		name = "EVT44331OPTA"
 		random_country = {
@@ -243,37 +244,38 @@ country_event = {
 			country_event = 60130
 		}
 	}
-
+ 
 	option = {
 		name = "EVT44331OPTB"
 		prestige = -20
 		any_pop = { consciousness = 4 }
 	}
 }
-
+ 
 #The Australian Dominion - Australia asks for independence
 country_event = {
-
+ 
 	id = 44332
-
+ 
 	title = "EVTNAME44332"
 	desc = "EVTDESC44332"
 	picture = "danishgovernment"
-
+ 
 	major = yes
-
+ 
 	trigger = {
 		war = no
 		year = 1901
 		any_owned_province = { is_core = AST }
 		NOT = { exists = AST }
+		NOT = { has_country_flag = AST_independence_refused }
 		is_possible_vassal = AST
 	}
-
+ 
 	mean_time_to_happen = {
 		months = 6
 		modifier = {
-			factor = 10
+			factor = 50
 			has_country_flag = AST_independence_refused
 		}
 		modifier = {
@@ -296,7 +298,7 @@ country_event = {
 			NOT = { has_country_flag = AST_independence_refused }
 		}
 	}
-
+ 
 	option = {
 		name = "EVT44330OPTA"
 		clr_country_flag = AST_independence_refused
@@ -371,7 +373,7 @@ country_event = {
 				factor = 2.0
 				exists = CAN
 			}
-			
+ 
 		}	
 	}
 	option = {
@@ -419,7 +421,7 @@ country_event = {
 			}
 		}
 	}
-	
+ 
 	option = {
 		name = "EVT44332OPTC"
 		clr_country_flag = AST_independence_refused
@@ -454,30 +456,31 @@ country_event = {
 		}
 	}
 }
-
+ 
 #The New Zealand Dominion - NZ asks for independence
 country_event = {
-
+ 
 	id = 44333
-
+ 
 	title = "EVTNAME44333"
 	desc = "EVTDESC44333"
 	picture = "danishgovernment"
-
+ 
 	major = yes
-
+ 
 	trigger = {
 		war = no
 		year = 1907
 		any_owned_province = { is_core = NZL }
 		NOT = { exists = NZL }
 		is_possible_vassal = NZL
+		NOT = { has_country_flag = NZL_independence_refused }
 	}
-
+ 
 	mean_time_to_happen = {
 		months = 6
 		modifier = {
-			factor = 10
+			factor = 50
 			has_country_flag = NZL_independence_refused
 		}
 		modifier = {
@@ -500,7 +503,7 @@ country_event = {
 			NOT = { has_country_flag = NZL_independence_refused }
 		}
 	}
-
+ 
 	option = {
 		name = "EVT44330OPTA"
 		clr_country_flag = NZL_independence_refused
@@ -585,7 +588,7 @@ country_event = {
 				factor = 2.0
 				exists = AST
 			}
-			
+ 
 		}	
 	}
 	option = {
@@ -666,26 +669,28 @@ country_event = {
 		}
 	}
 }
-
+ 
 #The South African Dominion - SAF asks for independence
 country_event = {
-
+ 
 	id = 44334
-
+ 
 	title = "EVTNAME44334"
 	desc = "EVTDESC44334"
 	picture = "danishgovernment"
-
+ 
 	major = yes
-
+ 
 	trigger = {
 		war = no
 		year = 1909
 		any_owned_province = { is_core = SAF }
 		NOT = { exists = SAF }
+		NOT = { primary_culture = boer }
 		is_possible_vassal = SAF
+		NOT = { has_country_flag = SAF_independence_refused }
 	}
-
+ 
 	mean_time_to_happen = {
 		months = 6
 		modifier = {
@@ -712,7 +717,7 @@ country_event = {
 			NOT = { has_country_flag = SAF_independence_refused }
 		}
 	}
-
+ 
 	option = {
 		name = "EVT44330OPTA"
 		clr_country_flag = SAF_independence_refused
@@ -804,7 +809,7 @@ country_event = {
 				factor = 1.2
 				militancy = 5
 			}
-			
+ 
 		}	
 	}
 	option = {
@@ -914,13 +919,13 @@ country_event = {
 		}
 	}
 }
-
+ 
 country_event = {
 	id = 44335
 	title = "EVTNAME44335"
 	desc = "EVTDESC44335"
 	picture = "deliberation"
-	
+ 
 	trigger = {
 		war = no
 		is_vassal = yes
@@ -938,32 +943,32 @@ country_event = {
 		}
 		NOT = { has_country_flag = no_more_asking_for_cores }
 	}
-	
+ 
 	mean_time_to_happen = {
 		months = 12
 	}
-	
+ 
 	option = {
 		name = "EVT44335OPTA"
 		overlord = { country_event = 44336 }
 		ai_chance = { factor = 100 }
 	}
-	
+ 
 	option = {
 		name = "EVT44335OPTB"
 		set_country_flag = no_more_asking_for_cores
 		ai_chance = { factor = 0 }
 	}
 }
-
+ 
 country_event = {
 	id = 44336
 	title = "EVTNAME44336"
 	desc = "EVTDESC44336"
 	picture = "deliberation"
-	
+ 
 	is_triggered_only = yes
-	
+ 
 	option = {
 		name = "EVT44336OPTA"
 		any_owned = {
@@ -977,7 +982,7 @@ country_event = {
 		FROM = { country_event = 44337 }
 		ai_chance = { factor = 100 }
 	}
-	
+ 
 	option = {
 		name = "EVT44336OPTB"
 		FROM = {
@@ -987,15 +992,15 @@ country_event = {
 		ai_chance = { factor = 0 }
 	}
 }
-
+ 
 country_event = {
 	id = 44337
 	title = "EVTNAME44337"
 	desc = "EVTDESC44337"
 	picture = "unite"
-	
+ 
 	is_triggered_only = yes
-	
+ 
 	option = {
 		name = "EVT44337OPTA"
 		prestige_factor = -0.1
@@ -1011,15 +1016,15 @@ country_event = {
 		}
 	}
 }
-
+ 
 country_event = {
 	id = 44338
 	title = "EVTNAME44338"
 	desc = "EVTDESC44338"
 	picture = "deliberation"
-	
+ 
 	is_triggered_only = yes
-	
+ 
 	option = {
 		name = "EVT44338OPTA"
 		relation = { who = FROM value = -100 }
@@ -1031,15 +1036,15 @@ country_event = {
 		}
 	}
 }
-
+ 
 #The Northwest Territories - England/Canada Annex White Horse
 country_event = {
-	
+ 
 	id = 44339
 	title = "EVTNAME44339"
 	desc = "EVTDESC44339"
 	picture = "Southpole3"
-	
+ 
 	trigger = {
 		OR = {
 			tag = CAN
@@ -1159,7 +1164,7 @@ country_event = {
 			}
 		}
 	}
-
+ 
 	mean_time_to_happen = {
 		months = 12
 		modifier = {
@@ -1184,7 +1189,7 @@ country_event = {
 			NOT = { year = 1900 }
 		}
 	}
-
+ 
 	option = {
 		name = "EVT44339OPTA"
 		treasury = -1000
@@ -1322,14 +1327,14 @@ country_event = {
 		}
 	}
 }
-
+ 
 #The Alaskan Dominion
 country_event = {
 	id = 44340
 	title = "EVTNAME44340"
 	desc = "EVTDESC44340"
 	picture = "alaska"
-		
+ 
 	trigger = {
 		war = no
 		CAN = { war = no }
@@ -1342,11 +1347,11 @@ country_event = {
 			any_neighbor_province = { owned_by = CAN }
 		}
 	}
-	
+ 
 	mean_time_to_happen = {
 		months = 6
 	}
-	
+ 
 	option = {
 		name = "EVT44340OPTA"
 		USA_1 = {
@@ -1368,7 +1373,7 @@ country_event = {
 		relation = { who = CAN value = 50 }
 		ai_chance = { factor = 75 }
 	}
-	
+ 
 	option = {
 		name = "EVT44340OPTB"
 		prestige = -10
@@ -1397,7 +1402,7 @@ country_event = {
 		}
 		ai_chance = { factor = 20 }
 	}
-	
+ 
 	option = {
 		name = "EVT44340OPTC"
 		USA_1 = {
@@ -1411,7 +1416,7 @@ country_event = {
 		}
 		ai_chance = { factor = 5 }
 	}
-	
+ 
 	option = {
 		name = "EVT44340OPTD"
 		prestige = -10
@@ -1441,18 +1446,18 @@ country_event = {
 		ai_chance = { factor = 0 }
 	}
 }
-
+ 
 #The Southern Rhodesia Dominion
 country_event = {
-
+ 
 	id = 44341
-
+ 
 	title = "EVTNAME44341"
 	desc = "EVTDESC44341"
 	picture = "danishgovernment"
-
+ 
 	major = yes
-
+ 
 	trigger = {
 		OR = {
 			tag = ENG
@@ -1461,8 +1466,9 @@ country_event = {
 		war = no
 		year = 1924
 		any_owned_province = { is_core = RHO }
+		NOT = { has_country_flag = RHO_independence_refused }
 	}
-
+ 
 	mean_time_to_happen = {
 		months = 6
 		modifier = {
@@ -1489,7 +1495,7 @@ country_event = {
 			NOT = { has_country_flag = RHO_independence_refused }
 		}
 	}
-
+ 
 	option = {
 		name = "EVT44330OPTA"
 		clr_country_flag = RHO_independence_refused
@@ -1557,7 +1563,7 @@ country_event = {
 				factor = 2.0
 				exists = AST
 			}
-			
+ 
 		}	
 	}
 	option = {

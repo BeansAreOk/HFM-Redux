@@ -113,4 +113,36 @@ political_decisions = {
 				government = absolute_monarchy
 			}
 		}
+		
+		become_russia = {
+		picture = unite_with_russia
+		potential = {
+			primary_culture = russian
+			NOT = {
+				exists = RUS
+				tag = RUS
+			}	
+			
+		}
+		allow = {
+			war = no
+			is_vassal = no 
+			mass_politics = 1
+			year = 1900
+			1008 = THIS
+			1016 = THIS
+			1017 = THIS
+			
+		}
+		
+		effect = {
+			prestige = 5
+			change_tag = RUS
+		}
+		
+		ai_will_do = {
+			factor = 1
+			}
+		}
 	}
+}

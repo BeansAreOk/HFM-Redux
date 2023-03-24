@@ -2666,11 +2666,13 @@ country_event = {
 			}
 			693 = { add_core = POL }
 			696 = { add_core = POL }
-			683 = { add_core = POL }
-			682 = { add_core = POL }
-			684 = { add_core = POL }
 			685 = { add_core = POL }
 			2584 = { add_core = POL }
+			699 = { add_core = POL }
+			701 = { add_core = POL }
+			700 = { add_core = POL }
+			694 = { add_core = POL }
+			691 = { add_core = POL }
 		}
 		
 		random_country = {
@@ -2681,11 +2683,13 @@ country_event = {
 			}
 			693 = { add_core = PLC }
 			696 = { add_core = PLC }
-			683 = { add_core = PLC }
-			682 = { add_core = PLC }
-			684 = { add_core = PLC }
 			685 = { add_core = PLC }
 			2584 = { add_core = PLC }
+			699 = { add_core = PLC }
+			701 = { add_core = PLC }
+			700 = { add_core = PLC }
+			694 = { add_core = PLC }
+			691 = { add_core = PLC }
 		}
 
 		random_country = {
@@ -2695,8 +2699,6 @@ country_event = {
 				truce_with = THIS
 				owns = 360
 			}
-			695 = { add_core = RUS }
-			697 = { add_core = RUS }
 			698 = { add_core = RUS }
 		}
 		

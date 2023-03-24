@@ -1,5 +1,9 @@
 capital = 455
 primary_culture = french
+culture = occitan
+culture = arpitan
+culture = picard
+culture = breton
 religion = catholic
 government = democracy
 plurality = 0.1
