@@ -3,5 +3,5 @@ controller = FRA
 add_core = FRA
 trade_goods = fish
 terrain = rouen
-life_rating = 34
+life_rating = 31
 1861.1.1 = { railroad = 3 }
