@@ -204,6 +204,34 @@ political_decisions = {
 		}
 	}
 	
+	accepting_walloons =  {
+	picture = waloonia
+	potential = {
+			primary_culture = french
+			is_greater_power = yes
+			owns = 392
+			NOT = { has_country_flag = accept_walloons }
+	}
+
+	allow = { 
+		nationalism_and_imperialism = 1
+		year = 1860
+	}
+
+	effect {
+		prestige = 5	
+		add_accepted_culture = wallonian
+		set_country_flag = accept_walloons
+		any_pop = {
+				limit = { is_primary_culture = yes }
+				militancy = 2.5
+				consciousness = 1.5
+			}
+		}
+		ai_will_do = { factor = 1 }
+
+	}
+
 	build_the_eiffel_tower = {
 		picture = build_the_eiffel_tower
 		potential = {

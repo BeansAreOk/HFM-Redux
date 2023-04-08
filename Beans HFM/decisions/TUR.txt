@@ -286,6 +286,7 @@ political_decisions = {
 			tag = TUR
 			government = democracy
 			year = 1890
+			NOT = { has_country_flag = accept_greeks }
 	}
 
 	allow = { 
@@ -297,13 +298,16 @@ political_decisions = {
 
 	effect {
 		prestige = 5	
-		add_accepted_culture = greek	
+		add_accepted_culture = greek
+		set_country_flag = accept_greeks
 		any_pop = {
 				limit = { is_primary_culture = yes }
 				militancy = 2.5
 				consciousness = 1.5
 			}
-	}
+		}
+		ai_will_do = { factor = 1 }
+		
 	}
 
 			

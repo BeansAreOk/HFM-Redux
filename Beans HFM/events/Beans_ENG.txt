@@ -2,6 +2,8 @@
 #Battle of Rorke's Drift
 #Battle of May Island
 #Flannan Island Mystery
+#Tsavo Man Eaters 
+#Tsavo Man Eaters Dead
 
 #Battle of Isandlwana
 country_event = {

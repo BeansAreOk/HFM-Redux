@@ -1,0 +1,47 @@
+#Halifax Explosion
+
+#Halifax Explosion
+country_event = {
+	id = 998011
+	title = "EVTNAME99810015" 
+	desc = "EVTDESC99810015"
+	picture = "halifax_exploded"
+	#news = yes
+	#news_desc_long = "EVTDESC99810016_NEWS_LONG"
+	#news_desc_medium = "EVTDESC99810016_NEWS_MEDIUM"
+	#news_desc_short = "EVTDESC99810016_NEWS_SHORT"
+	
+	trigger = {
+		tag = CAN
+		year = 1900
+		war = yes
+		NOT = { has_country_flag = halifax_explosion }
+	}
+	
+	fire_only_once = yes	
+	mean_time_to_happen = { months = 9 }
+	
+	option = {
+		name = "EVT9980016OPTA"
+		prestige = -40
+		71 = { naval_base = -5 }
+		71 = { infrastructure = -3 }
+		71 = {
+			any_pop = {
+				reduce_pop = 0.9
+			}
+		}
+		any_pop = {
+			limit = {
+				location = { is_core = THIS }
+				OR = { 
+					is_primary_culture = yes
+					is_accepted_culture = yes
+				}
+			}
+			militancy = 2.5
+			consciousness = 2
+			set_country_flag = halifax_explosion
+		}
+	}
+}

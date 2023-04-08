@@ -428,7 +428,8 @@ SWE_334;Malmö;;;;;;;;;;;;x
 RUS_343;Helsinki;;;;;;;;;;;;x
 RUS_345;Turku;;;;;;;;;;;;x
 RUS_360;Lithuania;;;;;;;;;;;;x
-HOL_369;Holstein;;;;;;;;;;;;x
+HOL_369;Kiel;;;;;;;;;;;;x
+HOL_530;Holstein;;;;;;;;;;;;x
 SCH_370;Schleswig;;;;;;;;;;;;x
 NET_379;Zeeland;;;;;;;;;;;;x
 PROV381;Limburg;;;;;;;;;;;;x
@@ -575,7 +576,7 @@ TRI_1740;Fezzan;;;;;;;;;;;;x
 EGY_1745;Cairo;;;;;;;;;;;;x
 EGY_1751;Alexandria;;;;;;;;;;;;x
 EGY_1753;Qattara;;;;;;;;;;;;x
-EGY_1755;Sinai;;;;;;;;;;;;x
+EGY_1755;Suez;;;;;;;;;;;;x
 ENG_1844;Sudd;;;;;;;;;;;;x
 ETH_1852;Begemder;;;;;;;;;;;;x
 ETH_1853;Tigray;;;;;;;;;;;;x
@@ -612,6 +613,8 @@ ENG_2068;Mashonaland;;;;;;;;;;;;x
 ENG_2071;Rozwi;;;;;;;;;;;;x
 ENG_2074;Bechuanaland;;;;;;;;;;;;x
 ENG_2094;Griqualand West;;;;;;;;;;;;x
+CLM_1723;Balboa;;;;;;;;;;;;x
+CLM_2204;Panama;;;;;;;;;;;;x
 PROV2124;Maore;;;;;;;;;;;;x
 MEX_2149;Cohauila;;;;;;;;;;;;x
 MEX_2159;Veracruz;;;;;;;;;;;;x
@@ -687,7 +690,7 @@ SWE_334; Malmö;;;;;;;;;;;;x
 RUS_343;Helsinki;;;;;;;;;;;;x
 RUS_345;Turku;;;;;;;;;;;;x
 RUS_360;Lithuania;;;;;;;;;;;;x
-HOL_369;Holstein;;;;;;;;;;;;x
+HOL_369;Kiel;;;;;;;;;;;;x
 SCH_370;Schleswig;;;;;;;;;;;;x
 NET_379;Zeeland;;;;;;;;;;;;x
 PROV381;Limburg;;;;;;;;;;;;x
@@ -840,7 +843,8 @@ TRI_1740;Fezzan;;;;;;;;;;;;x
 EGY_1745;Cairo;;;;;;;;;;;;x
 EGY_1751;Alexandria;;;;;;;;;;;;x
 EGY_1753;Qattara;;;;;;;;;;;;x
-EGY_1755;Sinai;;;;;;;;;;;;x
+EGY_1755;Suez;;;;;;;;;;;;x
+EGY_1756;Sinai;;;;;;;;;;;;x
 ENG_1844;Sudd;;;;;;;;;;;;x
 ETH_1852;Begemder;;;;;;;;;;;;x
 ETH_1853;Tigray;;;;;;;;;;;;x

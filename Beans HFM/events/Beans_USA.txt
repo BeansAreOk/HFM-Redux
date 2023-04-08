@@ -56,6 +56,11 @@ country_event = {
 	
 	option = {
 		name = "EVT9980008OPTA"
+		prestige = 15
+		43 = {
+			any_pop = {
+				reduce_pop = 1.15
+			}
 		any_pop = {
 			limit = {
 				location = { is_core = THIS }
@@ -64,7 +69,75 @@ country_event = {
 					is_accepted_culture = yes
 				}
 			}
-			consciousness = 0.5
+			consciousness = 0.2
+		}
+	}
+}
+
+#Tri State Tornado
+country_event = {
+	id = 998040
+	title = "EVTNAME99810017" 
+	desc = "EVTDESC99810017"
+	picture = "tri_state"
+	#news = yes
+	#news_desc_long = "EVTDESC99810018_NEWS_LONG"
+	#news_desc_medium = "EVTDESC99810018_NEWS_MEDIUM"
+	#news_desc_short = "EVTDESC99810018_NEWS_SHORT"
+	
+	trigger = {
+		tag = USA
+		year = 1925
+		NOT = { has_country_flag = tri_state_tornado }
+	}
+	
+	fire_only_once = yes	
+	mean_time_to_happen = { months = 1 }
+	
+	option = {
+		name = "EVT9980018OPTA"
+		prestige = -10
+		147 = {
+			147 = { infrastructure = -3 }
+			any_pop = {
+				reduce_pop = 0.94
+			}
+		}
+		#146 = {
+			#146 = { infrastructure = -3 }
+			#any_pop = {
+				reduce_pop = 0.95
+			#}
+		#}
+		#167 = {
+			#167 = { infrastructure = -2 }
+			#any_pop = {
+				#reduce_pop = 0.97
+			#}
+		#}
+		#165 = {
+			#165 = { infrastructure = -2 }
+			#any_pop = {
+				#reduce_pop = 0.98
+			#}
+		#}
+		#171 = {
+			#171 = { infrastructure = -1 }
+			#any_pop = {
+				#reduce_pop = 0.99
+			#}
+		#}
+		any_pop = {
+			limit = {
+				location = { is_core = THIS }
+				OR = { 
+					is_primary_culture = yes
+					is_accepted_culture = yes
+				}
+			}
+			militancy = 2
+			consciousness = 1.5
+			set_country_flag = tri_state_tornado
 		}
 	}
 }
