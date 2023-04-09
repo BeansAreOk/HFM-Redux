@@ -7,7 +7,6 @@ Balance changes:
 - Ukraine getting released does not remove Ukrainian as an accepted culture for Russia
 - Japan can annex Korea ten years earlier in 1900
 - Life rating in French provinces increased to a minimum of 34
-- Poland now starts with cores on all German territory it annexed after WW1
 
 Quality of Life changes:
 
@@ -20,15 +19,19 @@ Quality of Life changes:
 - Increased End Date to 1946
 - Adding wargoals no longer requires any jingoism requirement
 - Connected all offshore islands as straits to the home island in Japan
+- Panama, Kiel and the Suez Canals are now their own states
 
 Flavour changes:
 
 - Added 25 new Russian countries
 - Added 3 new British countries
-- Added Stormtrooper and Submarine units to the game.
-- Added more UK flavour events
-- Added more US flavour events 
+- Added 2 new units to the game: Stormtroopers and Submarines
+- Added more UK, US, Swedish and Canadian flavour events
 - Added decisions for Fascist Germany to attack France, the Benelux, and Denmark and Norway
+- Flavour given to Vichy France
+- Decision for Wallonian culture to be accepted by France
+- Decision for Ottomans to accept the Greeks upon unlocking Mass Politics and becoming a Republic
+- Decision for Poland to claim German territory to its west
 
 Historical fixes:
 
@@ -41,8 +44,7 @@ Historical fixes:
 
 Future changes:
 
-- More flavour events for Germany, Italy, Austria, Turkey, Russia, America, Hungary and Canada
-- More historically accurate dismantling empire outcome for the Ottomans
-- Event for Ottomans to accept the Greeks upon unlocking Nationalism and Imperialism
-- Panama, Kiel and the Suez Canals as their own states
-- Events for Wallonians and Flemish to be accepted by France and the Netherlands respectively
+- More late game flavour
+- More historically accurate dismantling empire outcome for Germany
+- Russian collapse into warlord states if dismantled more than once
+- More casus belli choices

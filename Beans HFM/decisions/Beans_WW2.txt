@@ -155,10 +155,9 @@ political_decisions = {
 				tag = GER
 				tag = GCF
 			}
-			war = no
 			is_disarmed = no
 			has_country_flag = the_french_menace
-			NOT = { has_country_flag = vf_released }
+			NOT = { has_global_flag = vf_released }
 			NOT = { has_country_modifier = no_more_war }
 			government = fascist_dictatorship
 			FRA = { exists = no }
@@ -171,7 +170,7 @@ political_decisions = {
 		
 		effect = {
 			prestige = 20
-			set_country_flag = vf_released
+			set_global_flag = vf_released
 			badboy = -30
 			409 = { remove_core = FRA remove_core = BOR }
 			410 = { remove_core = FRA remove_core = BOR }
@@ -208,6 +207,10 @@ political_decisions = {
 			release = VIC
 			VIC = {
 				government = presidential_dictatorship
+				add_accepted_culture = occitan
+				add_accepted_culture = picard
+				add_accepted_culture = breton
+				add_accepted_culture = arpitan
 			}
 			relation = { who = VIC value = 400 }
 		}
@@ -224,7 +227,7 @@ political_decisions = {
 				tag = GCF
 			}
 			is_disarmed = no
-			has_country_flag = vf_released
+			has_global_flag = vf_released
 			NOT = { has_country_modifier = abolish_vichy }
 			NOT = { has_country_modifier = no_more_war }
 			government = fascist_dictatorship
@@ -235,6 +238,7 @@ political_decisions = {
 		allow = {
 			VIC = {
 				in_sphere = THIS
+				NOT = { relation = { who = GER value = -100 } }
 			}
 		}
 		effect = {
@@ -248,40 +252,111 @@ political_decisions = {
 				}
 				annex_to = THIS
 			}
+			any_pop = {
+				limit = { is_primary_culture = yes }
+				militancy = 2
+				consciousness = 1.5
+			}
 		}
 		ai_will_do = { factor = 1 }
 	}
-	
-	
-	reclaim_our_territory = {
-		picture = vf_symbol
-		potential = {
+
+	accepting_our_minorities =  {
+	picture = waloonia
+	potential = {
 			tag = VIC
-			is_disarmed = no
-			has_country_flag = vf_released
-			NOT = { has_country_modifier = reclaim_our_territory }
-			NOT = { has_country_modifier = no_more_war }
-			FRA = { exists = no }
-			BOR = { exists = no }
-			451 = { owned_by = THIS }
-		}
-		allow = {
-			GER = {
-			relation = { who = THIS value = -50 }
-			}
-		}
-		effect = {
-			prestige = 30
-			set_country_flag = reclaim_our_territory
-			badboy = 5
-			any_owned = {
-				limit = { 
-					is_core = FRA
-				}
-				add_core = THIS	
+			NOT = { has_country_flag = accepting_our_minorities }
+	}
+	allow = { 
+		revolution_n_counterrevolution = 1
+	}
+	effect {
+		prestige = 10
+		add_accepted_culture = occitan
+		add_accepted_culture = picard
+		add_accepted_culture = breton
+		add_accepted_culture = arpitan
+		capital = 452
+		set_country_flag = accepting_our_minorities
+		any_pop = {
+				limit = { is_primary_culture = yes }
+				militancy = -2.5
+				consciousness = -1.5
 			}
 		}
 		ai_will_do = { factor = 1 }
 	}
+
+	reclaim_our_territory = {
+        picture = vf_symbol
+        potential = {
+            tag = VIC
+            is_disarmed = no
+            has_global_flag = vf_released
+            NOT = { has_country_flag = reclaim_our_territory }
+            NOT = { has_country_modifier = no_more_war }
+            FRA = { exists = no }
+            BOR = { exists = no }
+            451 = { owned_by = THIS }
+        }
+        allow = {
+            NOT = { relation = { who = GER value = -150 } }
+	    NOT = { in_sphere = GER }
+        }
+        effect = {
+            prestige = 30
+            set_country_flag = reclaim_our_territory
+            badboy = 10
+            447 = { add_core = VIC }
+            459 = { add_core = VIC }
+            460 = { add_core = VIC }
+            458 = { add_core = VIC }
+            444 = { add_core = VIC }
+            442 = { add_core = VIC }
+            437 = { add_core = VIC }
+            423 = { add_core = VIC }
+            422 = { add_core = VIC }
+            421 = { add_core = VIC }
+            420 = { add_core = VIC }
+            434 = { add_core = VIC }
+            443 = { add_core = VIC }
+            435 = { add_core = VIC }
+            424 = { add_core = VIC }
+            418 = { add_core = VIC }
+            417 = { add_core = VIC }
+            416 = { add_core = VIC }
+            415 = { add_core = VIC }
+            436 = { add_core = VIC }
+            426 = { add_core = VIC }
+            425 = { add_core = VIC }
+            2570 = { add_core = VIC }
+            402 = { add_core = VIC }
+            401 = { add_core = VIC }
+            400 = { add_core = VIC }
+            404 = { add_core = VIC }
+            403 = { add_core = VIC }
+            399 = { add_core = VIC }
+            428 = { add_core = VIC }
+            429 = { add_core = VIC }
+            438 = { add_core = VIC }
+            432 = { add_core = VIC }
+            414 = { add_core = VIC }
+            411 = { add_core = VIC }
+            413 = { add_core = VIC }
+            405 = { add_core = VIC }
+            407 = { add_core = VIC }
+            408 = { add_core = VIC }
+	    440 = { add_core = VIC }
+            441 = { add_core = VIC }
+	    406 = { add_core = VIC }
+            427 = { add_core = VIC }
+	    any_pop = {
+		limit = { is_primary_culture = yes }
+		militancy = 2
+		consciousness = 1.5
+		}
+	}
+	ai_will_do = { factor = 1 }
+    }
 }
 

@@ -1,4 +1,4 @@
-capital = 455
+capital = 452
 primary_culture = french
 culture = occitan
 culture = arpitan
