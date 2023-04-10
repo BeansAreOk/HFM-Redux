@@ -54,7 +54,11 @@ claim_eastern_poland = {
 			nationalism_n_imperialism = 1
 			war = no
 			is_vassal = no
-			NOT = { relation = { who = GER value = -100 } }
+			OR = { 
+				NOT = { relation = { who = NGF value = -100 } }
+				NOT = { relation = { who = PRU value = -100 } }
+				NOT = { relation = { who = GER value = -100 } }
+			}
 		}
 		effect = {
 			set_country_flag = claimed_western_poland
@@ -67,7 +71,6 @@ claim_eastern_poland = {
 			700 = { add_core = POL }
 			691 = { add_core = POL }
 			694 = { add_core = POL }
-			940 = { add_core = POL }
 			690 = { add_core = POL }
 			any_pop = {
 			limit = {
@@ -77,8 +80,8 @@ claim_eastern_poland = {
 					is_accepted_culture = yes
 				}
 			}
-			militancy = 1
-			consciousness = 0.5
+			militancy = -1
+			consciousness = -0.5
 			}
 		}
 		ai_will_do = {
