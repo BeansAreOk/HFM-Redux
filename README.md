@@ -32,6 +32,7 @@ Flavour changes:
 - Decision for Wallonian culture to be accepted by France
 - Decision for Ottomans to accept the Greeks upon unlocking Mass Politics and becoming a Republic
 - Decision for Poland to claim German territory to its west
+- Added more loading screens
 
 Historical fixes:
 
@@ -41,10 +42,12 @@ Historical fixes:
 - Vichy France renamed to the French State
 - Polish eastern claims decision fixed to include all territory it took from Russia after WW1
 - Fascist Hungary flag and name changed to be more historically accurate
+- More historically accurate dismantling empire outcome for Germany if historical conditions met
 
 Future changes:
 
 - More late game flavour
-- More historically accurate dismantling empire outcome for Germany
 - Russian collapse into warlord states if dismantled more than once
 - More casus belli choices
+- More loading screens
+- Different music on startup
