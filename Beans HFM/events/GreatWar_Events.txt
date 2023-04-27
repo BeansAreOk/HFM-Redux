@@ -2304,7 +2304,7 @@ country_event = {
 		any_owned = {
 			limit = {
 				OR = {
-					province_id = 370
+					#province_id = 370
 					province_id = 371
 				}
 			}
@@ -2664,8 +2664,6 @@ country_event = {
 				exists = yes
 				truce_with = THIS
 			}
-			693 = { add_core = POL }
-			696 = { add_core = POL }
 			685 = { add_core = POL }
 			2584 = { add_core = POL }
 			699 = { add_core = POL }
@@ -2703,46 +2701,46 @@ country_event = {
 		}
 		
 		#if Austria has a truce, release Bavaria as its puppet
-		random_country = {
-			limit = {
-				tag = AUS
-				truce_with = THIS
-				THIS = { owns = 599 }
-			}
-			THIS = {
-				any_owned = {
-					limit = { region = BAV_599 }
-					add_core = BAV
-					secede_province = AUS
-				}
-			}
-			release_vassal = BAV
-			diplomatic_influence = {
-				who = BAV
-				value = 200
-			}
-			THIS = {
-				diplomatic_influence = {
-					who = BAV
-					value = -200
-				}
-			}
-		}
-		random_country = {
-			limit = {
-				tag = KUK
-				truce_with = THIS
-				THIS = { owns = 599 }
-			}
-			THIS = {
-				any_owned = {
-					limit = { region = BAV_599 }
-					add_core = BAV
-					secede_province = KUK
-				}
-			}
-			release_vassal = BAV
-		}
+		#random_country = {
+			#limit = {
+				#tag = AUS
+				#truce_with = THIS
+				#THIS = { owns = 599 }
+			#}
+			#THIS = {
+				#any_owned = {
+					#limit = { region = BAV_599 }
+					#add_core = BAV
+					#secede_province = AUS
+				#}
+			#}
+			#release_vassal = BAV
+			#diplomatic_influence = {
+				#who = BAV
+				#value = 200
+			#}
+			#THIS = {
+				#diplomatic_influence = {
+					#who = BAV
+					#value = -200
+				#}
+			#}
+		#}
+		#random_country = {
+			#limit = {
+				#tag = KUK
+				#truce_with = THIS
+				#THIS = { owns = 599 }
+			#}
+			#THIS = {
+				#any_owned = {
+					#limit = { region = BAV_599 }
+					#add_core = BAV
+					#secede_province = KUK
+				#}
+			#}
+			#release_vassal = BAV
+		#}
 
 		#if Denmark has a truce, it gets Schleswig back
 		random_country = {
@@ -2751,16 +2749,16 @@ country_event = {
 				truce_with = THIS
 				THIS = {
 					OR = {
-						owns = 370
+						#owns = 370
 						owns = 371
 					}
 				}
 			}
-			370 = {
-				add_core = DEN
-				remove_core = GER
-				remove_core = GCF
-			}
+			#370 = {
+				#add_core = DEN
+				#remove_core = GER
+				#remove_core = GCF
+			#}
 			371 = {
 				add_core = DEN
 				remove_core = GER
@@ -5939,7 +5937,7 @@ country_event = {
 		any_owned = {
 			limit = {
 				OR = {
-					province_id = 370
+					#province_id = 370
 					province_id = 371
 				}
 			}

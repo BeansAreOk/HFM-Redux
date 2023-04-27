@@ -6,7 +6,7 @@ Balance changes:
 - Life rating in Yorkshire increased to 38
 - Ukraine getting released does not remove Ukrainian as an accepted culture for Russia
 - Japan can annex Korea ten years earlier in 1900
-- Life rating in French provinces increased to a minimum of 34
+- Life rating in French provinces increased slightly
 
 Quality of Life changes:
 

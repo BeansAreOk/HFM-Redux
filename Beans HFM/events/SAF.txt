@@ -451,7 +451,6 @@ country_event = {
 			owns = 2098
 			owns = 2111
 			owns = 2113
-			owns = 2114
 			owns = 2105
 			owns = 2094
 			
@@ -510,8 +509,6 @@ country_event = {
 		2109 = { add_core = THIS } 
 		2107 = { add_core = THIS } 
 		2106 = { add_core = THIS } 
-		2114 = { add_core = THIS } 
-		2104 = { add_core = THIS } 
 		2111 = { add_core = THIS } 
 		2113 = { add_core = THIS } 
 		2112 = { add_core = THIS } 
@@ -630,7 +627,6 @@ country_event = {
 			owns = 2113 
 			owns = 2112 
 			owns = 2111 
-			owns = 2104
 		}
 		NOT = { has_country_flag = rename_natal_boer } 
 	}
@@ -644,7 +640,6 @@ country_event = {
 		2113 = { change_province_name = "Richardsbaai" add_core = THIS }
 		2112 = { change_province_name = "Vrousmith" add_core = THIS }
 		2111 = { change_province_name = "Pietermaritzburg" add_core = THIS }
-		2104 = { change_province_name = "Caledon" add_core = THIS }
 	}
 }
 
