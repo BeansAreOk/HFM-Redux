@@ -20,6 +20,7 @@ Quality of Life changes:
 - Adding wargoals no longer requires any jingoism requirement
 - Connected all offshore islands as straits to the home island in Japan
 - Panama, Kiel and the Suez Canals are now their own states
+- Mod split into mod and map mode files
 
 Flavour changes:
 
