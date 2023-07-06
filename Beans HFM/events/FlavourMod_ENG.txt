@@ -133,7 +133,7 @@ country_event = {
 		relation = {
 			who = GER
 			value = 15
-		} 
+		}
 		set_global_flag = death_of_victoria
 	}
 }

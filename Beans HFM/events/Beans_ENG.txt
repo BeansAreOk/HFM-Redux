@@ -4,6 +4,7 @@
 #Flannan Island Mystery
 #Tsavo Man Eaters 
 #Tsavo Man Eaters Dead
+#Entente Cordiale
 
 #Battle of Isandlwana
 country_event = {
@@ -223,6 +224,69 @@ country_event = {
 			}
 			consciousness = -0.5
 			set_global_flag = tsavo_man_eaters_dead
+		}
+	}
+}
+
+country_event = {
+	id = 123592
+	title = "EVTNAME123593" 
+	desc = "EVTDESC123594"
+	picture = "entente"
+	#news = yes
+	#news_desc_long = "EVTDESC123594_NEWS_LONG"
+	#news_desc_medium = "EVTDESC123594_NEWS_MEDIUM"
+	#news_desc_short = "EVTDESC123594_NEWS_SHORT"
+
+	fire_only_once = yes
+	
+	option = {
+		name = "EVT123594OPTA"
+		prestige = 25 
+		create_alliance = FRA
+		create_alliance = BOR
+		relation = {
+			who = FRA
+			value = 150
+		}
+		relation = {
+			who = BOR
+			value = 150
+		}
+		any_pop = {
+			limit = {
+				location = { is_core = THIS }
+				OR = { 
+					is_primary_culture = yes
+					is_accepted_culture = yes
+				}
+			}
+			consciousness = 0.5
+			set_country_flag = entente_cordiale
+		}
+	}
+
+	option = {
+		name = "EVT123594OPTB"
+		prestige = 50 
+		relation = {
+			who = FRA
+			value = -20
+		}
+		relation = {
+			who = BOR
+			value = -20
+		}
+		any_pop = {
+			limit = {
+				location = { is_core = THIS }
+				OR = { 
+					is_primary_culture = yes
+					is_accepted_culture = yes
+				}
+			}
+			consciousness = -0.5
+			set_country_flag = entente_cordiale
 		}
 	}
 }

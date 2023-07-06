@@ -34,3 +34,7 @@ EVT9980020OPTA;What a shame.;;;;;;;;;;x;;;;
 EVTNAME99810021;North Pole Balloon Explorers Found;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 EVTDESC99810021;On the island of Kvitoya in Svalbard, the ruins of the failed balloon expedition to the North Pole in 1897 were found. The men had survived for 2 months after their crash landing and settled at Kvitoya, where they eventually died. It is believed that the group of explorers perished after consuming polar bear meat, which is very parasitic. The bodies of the 3 men were discovered along with a diary and camera film of their doomed journey to the North Pole. The bodies of Andree, Fraenkel and Strindberg were taken back to Stockholm for a proper burial.;;;;;;;;;;x;;;;
 EVT9980022OPTA;At least they're back home now.;;;;;;;;;;x;;;;
+EVTNAME123593;The Entente Cordiale;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC123594;The Entente Cordiale was a series of agreements signed between the United Kingdom and France. The beginning of the 20th century saw both nations diplomatically isolated from other European powers, France by the skillful German Chancellor Otto von Bismarck, and the United Kingdom by their own choice of "Splendid Isolationism". With the balance of power shifting it would be wise to reconcile the rift that has existed between the British and French peoples for generations.;;;;;;;;;;x;;;;
+EVT123594OPTA;Of course we will join!;;;;;;;;;;x;;;;
+EVT123594OPTB;Now is not the best time to get ourselves entangled in Europe.;;;;;;;;;;x;;;;

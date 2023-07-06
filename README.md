@@ -34,6 +34,7 @@ Flavour changes:
 - Decision for Ottomans to accept the Greeks upon unlocking Mass Politics and becoming a Republic
 - Decision for Poland to claim German territory to its west
 - Added more loading screens
+- More casus belli choices
 
 Historical fixes:
 
@@ -49,6 +50,4 @@ Future changes:
 
 - More late game flavour
 - Russian collapse into warlord states if dismantled more than once
-- More casus belli choices
-- More loading screens
 - Different music on startup

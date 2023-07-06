@@ -1,0 +1,8 @@
+song = {
+	name = "thecoronation_titletheme.mp3"
+	chance = {
+		modifier = {
+			factor = -1
+		}
+	}
+}

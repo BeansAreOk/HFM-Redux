@@ -207,6 +207,7 @@ political_decisions = {
 			release = VIC
 			VIC = {
 				government = presidential_dictatorship
+				neutrality = yes
 				add_accepted_culture = occitan
 				add_accepted_culture = picard
 				add_accepted_culture = breton
@@ -216,6 +217,30 @@ political_decisions = {
 		}
 		
 		ai_will_do = { factor = 1 }
+	}
+
+	renounce_neutrality = {
+		picture = vf_symbol
+		potential = {
+			tag = VIC
+			neutrality = yes
+			prestige = 20
+			has_global_flag = vf_released
+		}
+		effect = {
+			prestige = 10
+			neutrality = no
+			badboy = 5
+			relation = {
+				who = GER
+				value = -50
+			}
+			any_pop = {
+				limit = { is_primary_culture = yes }
+				militancy = 1
+				consciousness = 0.75
+			}
+		}
 	}
 	
 	abolish_vichy = {
@@ -346,9 +371,9 @@ political_decisions = {
             405 = { add_core = VIC }
             407 = { add_core = VIC }
             408 = { add_core = VIC }
-	    440 = { add_core = VIC }
+	    	440 = { add_core = VIC }
             441 = { add_core = VIC }
-	    406 = { add_core = VIC }
+	    	406 = { add_core = VIC }
             427 = { add_core = VIC }
 	    any_pop = {
 		limit = { is_primary_culture = yes }
