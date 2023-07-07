@@ -3,7 +3,7 @@ substate = {
 	first = GER
 	second = AOG
 	start_date = 1815.1.1
-	end_date = 1936.1.1
+	end_date = 1946.1.1
 }
 
 #Mittelafrika
@@ -11,7 +11,7 @@ substate = {
 	first = GER
 	second = MIT
 	start_date = 1815.1.1
-	end_date = 1936.1.1
+	end_date = 1946.1.1
 }
 
 #Rajputana Agency
@@ -19,7 +19,7 @@ substate = {
 	first = ENG
 	second = RAJ
 	start_date = 1815.1.1
-	end_date = 1936.1.1
+	end_date = 1946.1.1
 }
 
 #Central India Agency
@@ -27,14 +27,14 @@ substate = {
 	first = ENG
 	second = BUN
 	start_date = 1815.1.1
-	end_date = 1936.1.1
+	end_date = 1946.1.1
 }
 
 substate = {
 	first = ENG
 	second = BLC
 	start_date = 1815.1.1
-	end_date = 1936.1.1
+	end_date = 1946.1.1
 }
 
 #CAN / NZL / AST / MRU / NEW / RHO
@@ -42,42 +42,42 @@ substate = {
 	first = ENG
 	second = CAN
 	start_date = 1815.1.1
-	end_date = 1936.1.1
+	end_date = 1946.1.1
 }
 
 substate = {
 	first = ENG
 	second = AST
 	start_date = 1815.1.1
-	end_date = 1936.1.1
+	end_date = 1946.1.1
 }
 
 substate = {
 	first = ENG
 	second = NZL
 	start_date = 1815.1.1
-	end_date = 1936.1.1
+	end_date = 1946.1.1
 }
 
 substate = {
 	first = ENG
 	second = MRU
 	start_date = 1815.1.1
-	end_date = 1936.1.1
+	end_date = 1946.1.1
 }
 
 substate = {
 	first = ENG
 	second = NEW
 	start_date = 1815.1.1
-	end_date = 1936.1.1
+	end_date = 1946.1.1
 }
 
 substate = {
 	first = ENG
 	second = RHO
 	start_date = 1815.1.1
-	end_date = 1936.1.1
+	end_date = 1946.1.1
 }
 
 #Prussia - Sigmaringen
@@ -108,14 +108,14 @@ vassal = {
 	first = FRA
 	second = MNC
 	start_date = 1860.1.1
-	end_date = 1936.1.1
+	end_date = 1946.1.1
 }
 
 vassal = {
 	first = FRA
 	second = MNC
 	start_date = 1870.1.1
-	end_date = 1936.1.1
+	end_date = 1946.1.1
 }
 
 #Liechenstein
@@ -123,7 +123,7 @@ vassal = {
 	first = AUS
 	second = LIE
 	start_date = 1815.1.1
-	end_date = 1936.1.1
+	end_date = 1946.1.1
 }
 
 
@@ -188,7 +188,7 @@ vassal = {
 	first = TUR
 	second = KWT
 	start_date = 1836.1.1
-	end_date = 1936.1.1
+	end_date = 1946.1.1
 }
 
 #Netherlands-Tidore Sultanate
@@ -196,7 +196,7 @@ vassal = {
 	first = NET
 	second = MAL
 	start_date = 1836.1.1
-	end_date = 1936.1.1
+	end_date = 1946.1.1
 }
 
 #Netherlands-Yogyakarta/Surakarta Sultanate
@@ -204,7 +204,7 @@ vassal = {
 	first = NET
 	second = JAV
 	start_date = 1836.1.1
-	end_date = 1936.1.1
+	end_date = 1946.1.1
 }
 
 #Netherlands-Siak Sultanate
@@ -212,7 +212,7 @@ vassal = {
 	first = NET
 	second = SAK
 	start_date = 1836.1.1
-	end_date = 1936.1.1
+	end_date = 1946.1.1
 }
 
 #Netherlands-Siak Sultanate
@@ -220,7 +220,7 @@ vassal = {
 	first = NET
 	second = DJA
 	start_date = 1836.1.1
-	end_date = 1936.1.1
+	end_date = 1946.1.1
 }
 
 #Russia-Finland
@@ -249,7 +249,7 @@ vassal = {
 #	first = SOK
 #	second = ADW
 #	start_date = 1808.1.1
-#	end_date = 1936.1.1
+#	end_date = 1946.1.1
 #}
 
 ##Wadai - Baguirmi
@@ -257,7 +257,7 @@ vassal = {
 #	first = WAD
 #	second = BRM
 #	start_date = 1808.1.1
-#	end_date = 1936.1.1
+#	end_date = 1946.1.1
 #}
 
 ##Substates of the Argentine Confederation
@@ -288,7 +288,7 @@ substate = {
 	first = ENG
 	second = EIC
 	start_date = 1805.1.1
-	end_date = 1936.1.1
+	end_date = 1946.1.1
 }
 
 #Hudson Bay Company
@@ -296,7 +296,7 @@ substate = {
 	first = ENG
 	second = RPL
 	start_date = 1805.1.1
-	end_date = 1936.1.1
+	end_date = 1946.1.1
 }
 
 # United Kingdom-Hanover
@@ -320,7 +320,7 @@ vassal = {
 	first = ENG
 	second = MSK
 	start_date = 1815.11.9
-	end_date = 1936.1.1
+	end_date = 1946.1.1
 }
 
 # Sweden-Norway
@@ -376,7 +376,7 @@ substate = {
 	first = TUR
 	second = SAM
 	start_date = 1836.1.1
-	end_date = 1936.1.1
+	end_date = 1946.1.1
 }
 
 #Ottoman Empire-Eastern Rumelia
@@ -384,7 +384,7 @@ substate = {
 	first = TUR
 	second = RUM
 	start_date = 1836.1.1
-	end_date = 1936.1.1
+	end_date = 1946.1.1
 }
 
 
@@ -421,7 +421,7 @@ vassal = {
 	first = ENG
 	second = MUG
 	start_date = 1805.1.1
-	end_date = 1936.1.1
+	end_date = 1946.1.1
 }
 
 # United Kingdom-Bahawalpur
@@ -429,7 +429,7 @@ vassal = {
 	first = ENG
 	second = BHP
 	start_date = 1805.1.1
-	end_date = 1936.1.1
+	end_date = 1946.1.1
 }
 
 # United Kingdom-Awadh
@@ -587,7 +587,7 @@ vassal = {
 	first = ENG
 	second = MLD
 	start_date = 1819.1.1
-	end_date = 1936.1.1
+	end_date = 1946.1.1
 }
 
 vassal = {
@@ -725,7 +725,7 @@ vassal = {
 	first = SIA
 	second = CAM
 	start_date = 1861.1.1
-	end_date = 1936.1.1
+	end_date = 1946.1.1
 }
 
 # Siam - Champasak 
@@ -741,7 +741,7 @@ vassal = {
 	first = ENG
 	second = KAS
 	start_date = 1861.1.1
-	end_date = 1936.1.1
+	end_date = 1946.1.1
 }
 
 # OE - Romania 
@@ -749,7 +749,7 @@ vassal = {
 	first = TUR
 	second = ROM
 	start_date = 1861.1.1
-	end_date = 1936.1.1
+	end_date = 1946.1.1
 }
 
 # OE - Hejaz 
@@ -757,5 +757,5 @@ vassal = {
 	first = TUR
 	second = HDJ
 	start_date = 1861.1.1
-	end_date = 1936.1.1
+	end_date = 1946.1.1
 }
