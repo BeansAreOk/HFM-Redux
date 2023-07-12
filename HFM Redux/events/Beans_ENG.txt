@@ -45,9 +45,9 @@ country_event = {
 
 #Battle of Rorke's Drift
 country_event = {
-	id = 99809
-	title = "EVTNAME99809" 
-	desc = "EVTDESC99809"
+	id = 998000001
+	title = "EVTNAME998000001" 
+	desc = "EVTDESC998000001"
 	picture = "rorkes_drift"
 	#news = yes
 	#news_desc_long = "EVTDESC99101_NEWS_LONG"
@@ -64,7 +64,7 @@ country_event = {
 	mean_time_to_happen = { days = 4 }
 	
 	option = {
-		name = "EVT99809OPTA"
+		name = "EVT998000002OPTA"
 		prestige = 35
 		any_pop = {
 			limit = {

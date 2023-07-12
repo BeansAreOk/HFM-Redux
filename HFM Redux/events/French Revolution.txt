@@ -92,22 +92,22 @@ country_event = {
 		}
 	}
 
-	immediate = {
-		FRA = { 
-			set_country_flag = 2nd_republic
-			set_global_flag = french_revolution_1848
-			clr_country_flag = liberal_revolution_fired
-			clr_country_flag = liberal_revolution_in_progress
-			set_country_flag = had_liberal_revolution
-		}
-		BOR = { 
-			set_country_flag = 2nd_republic
-			set_global_flag = french_revolution_1848
-			clr_country_flag = liberal_revolution_fired
-			clr_country_flag = liberal_revolution_in_progress
-			set_country_flag = had_liberal_revolution
-		}
-	}
+	#immediate = {
+		#FRA = { 
+			#set_country_flag = 2nd_republic
+			#set_global_flag = french_revolution_1848
+			#clr_country_flag = liberal_revolution_fired
+			#clr_country_flag = liberal_revolution_in_progress
+			#set_country_flag = had_liberal_revolution
+		#}
+		#BOR = { 
+			#set_country_flag = 2nd_republic
+			#set_global_flag = french_revolution_1848
+			#clr_country_flag = liberal_revolution_fired
+			#clr_country_flag = liberal_revolution_in_progress
+			#set_country_flag = had_liberal_revolution
+		#}
+	#}
 	
 	option = {
 		name = "EVT10400OPTA"
@@ -121,6 +121,20 @@ country_event = {
 				controlled_by_rebels = yes
 			}
 			change_controller = THIS
+		}
+		FRA = { 
+			set_country_flag = 2nd_republic
+			set_global_flag = french_revolution_1848
+			clr_country_flag = liberal_revolution_fired
+			clr_country_flag = liberal_revolution_in_progress
+			set_country_flag = had_liberal_revolution
+		}
+		BOR = { 
+			set_country_flag = 2nd_republic
+			set_global_flag = french_revolution_1848
+			clr_country_flag = liberal_revolution_fired
+			clr_country_flag = liberal_revolution_in_progress
+			set_country_flag = had_liberal_revolution
 		}
 		government = democracy
 		ruling_party_ideology = liberal
@@ -227,6 +241,54 @@ country_event = {
 			relation = { who = THIS value = 200 }
 		}
 		2126 = { change_province_name = "Reunion" }
+	}
+	option = {
+		name = "EVT10400OPTB"
+		prestige = -75
+		any_owned = { remove_province_modifier = liberal_agitation }
+		remove_country_modifier = springtime_of_nations
+		remove_country_modifier = global_liberal_agitation
+		any_pop = {
+			limit = {
+				is_primary_culture = yes
+				is_accepted_culture = yes
+				OR = {
+					type = soldiers
+					type = officers
+				}
+			}
+			ideology = { factor = 0.3 value = conservative }
+			dominant_issue = { factor = 0.20 value = jingoism }
+		}
+		any_pop = {
+			limit = {
+				strata = poor
+				is_culture_group = french
+				location = { is_core = THIS }
+			}
+			ideology = { factor = 0.25 value = conservative }
+			dominant_issue = { factor = 0.10 value = jingoism }
+		}
+		any_pop = {
+			limit = {
+				location = { is_core = THIS }
+			}
+			scaled_militancy = {
+				ideology = reactionary
+				factor = -4
+			}
+			scaled_militancy = {
+				ideology = conservative
+				factor = 4
+			}
+			scaled_militancy = {
+				ideology = liberal
+				factor = 4
+			}
+			scaled_militancy = {
+				ideology = socialist
+				factor = 6
+			}
 	}
 }
 
