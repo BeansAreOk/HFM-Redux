@@ -390,7 +390,7 @@ political_decisions = {
         picture = entente
         potential = {
             tag = FRA
-	        year = 1900
+	        year = 1895
             ENG = {
                 exists = yes
                 NOT = {
@@ -399,8 +399,7 @@ political_decisions = {
                     government = proletarian_dictatorship
                 }
             }
-            has_global_flag = great_wars_enabled
-            NOT = {
+			NOT = {
                 has_country_flag = entente_cordiale
                 government = fascist_dictatorship
                 government = proletarian_dictatorship

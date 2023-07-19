@@ -245,6 +245,7 @@ country_event = {
 	option = {
 		name = "EVT10400OPTB"
 		prestige = -75
+		treasury = -30000
 		any_owned = { remove_province_modifier = liberal_agitation }
 		remove_country_modifier = springtime_of_nations
 		remove_country_modifier = global_liberal_agitation
