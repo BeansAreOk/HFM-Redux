@@ -1,67 +1,40 @@
 leader = {
-	name = "von Rabenhorst"
-	date = 1849.1.1
+	name = "von Leysser"
+	date = 1829.1.1
 	type = land
-	personality = skilled
-	background = gifted_administrator
-	prestige = 0.2
+	personality = tactful
+	background = elderly
+	prestige = 0.1
 }
 
 leader = {
-	name = "Kronprinz Albert"
-	date = 1851.1.1
+	name = "von Zezschwitz"
+	date = 1817.1.1
 	type = land
-	personality = competent
-	background = drillmaster
+	personality = cautious
+	background = school_of_defense
 	prestige = 0.2
-}
-
-leader = {
-	name = "Auguste von S-C-G"
-	date = 1861.1.1
-	type = land
-	personality = calm
-	background = aristocrat
-	prestige = 0.3
 }
 
 army = {
-	name = "I. Korps"
+	name = "Königlich Sächsische Armee"
 	location = 558
 	regiment = {
-		name= "1.Sächsische Division"
+		name= "1. Infanteriebrigade"
 		type = infantry
 		home = 558
 	}
 
 	regiment = {
-		name= "2.Sächsische Division"
+		name= "2. Infanteriebrigade"
 		type = infantry
 		home = 559
 	}
 
 	regiment = {
-		name= "3.Sächsische Division"
+		name= "3. Infanteriebrigade"
 		type = infantry
 		home = 560
-	}
-
-	regiment = {
-		name= "4.Sächsische Division"
-		type = cuirassier
-		home = 559
-	}
-	
-	regiment = {
-		name= "5.Sächsische Division"
-		type = artillery
-		home = 558
-	}
-	
-	regiment = {
-		name= "6.Sächsische Division"
-		type = infantry
-		home = 558
 	}
 
 }

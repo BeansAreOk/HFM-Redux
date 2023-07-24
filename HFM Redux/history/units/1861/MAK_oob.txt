@@ -6,10 +6,5 @@ army = {
 		type = cavalry
 		home = 1222
 	}
-	regiment = {
-		name= "2.Baluchye"
-		type = irregular
-		home = 1222
-	}
 }
 

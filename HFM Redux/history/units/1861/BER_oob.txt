@@ -1,42 +1,6 @@
 army = {
-	name = "Army of Beroda"
-	location = 1292
-	regiment = {
-		name= "1st Rajkot"
-		type = irregular
-		home = 1292
-	}
-
-	regiment = {
-		name= "2nd Rajkot"
-		type = irregular
-		home = 1292
-	}
-
-	regiment = {
-		name= "3rd Rajkot"
-		type = irregular
-		home = 1292
-	}
-
-	regiment = {
-		name= "1st Patan"
-		type = irregular
-		home = 1294
-	}
-
-	regiment = {
-		name= "2nd Patan"
-		type = irregular
-		home = 1294
-	}
-
-	regiment = {
-		name= "3rd Patan"
-		type = irregular
-		home = 1294
-	}
-
+	name = "Army of the Maharaja of Beroda"
+	location = 1295
 	regiment = {
 		name= "1st Baroda"
 		type = irregular
@@ -53,6 +17,24 @@ army = {
 		name= "3rd Baroda"
 		type = irregular
 		home = 1295
+	}
+
+	regiment = {
+		name= "1st Patan"
+		type = irregular
+		home = 1294
+	}
+
+	regiment = {
+		name= "2nd Patan"
+		type = irregular
+		home = 1294
+	}
+
+	regiment = {
+		name= "1st Rajkot"
+		type = irregular
+		home = 1292
 	}
 
 }

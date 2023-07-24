@@ -15,8 +15,9 @@ army = {
 
 	regiment = {
 		name= "3.Indore Contingent"
-		type = cavalry
+		type = irregular
 		home = 1271
 	}
 
 }
+

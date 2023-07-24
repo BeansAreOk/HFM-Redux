@@ -1,3 +1,19 @@
+GON = {
+	value = -200
+}
+
+SHW = {
+	value = -200
+}
+
+TIG = {
+	value = -200
+}
+
+KAF = {
+	value = -200
+}
+
 TUR = {
 	value = 40
 }
@@ -15,7 +31,11 @@ SID = {
 }
 
 MAJ = {
-	value = 50
+	value = -200
+}
+
+WRL = {
+	value = -200
 }
 
 OMA = {

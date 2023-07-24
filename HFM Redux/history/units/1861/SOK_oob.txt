@@ -30,18 +30,6 @@ DAR = {
 	value = 10
 }
 
-MOS = {
-	value = -5
-}
-
-SEG = {
-	value = -20
-}
-
-ASH = {
-	value = -20
-}
-
 DAH = {
 	value = -10
 }
@@ -65,6 +53,15 @@ ARO = {
 CLA = {
 	value = -15
 }
+
+USA = {
+	value = -200
+}
+
+GBU = { value = -200 }
+SEG = { value = -200 }
+MOS = { value = -200 }
+ASH = { value = -200 }
 
 army = {
 	name = "Army of the Sultan of Sokoto"

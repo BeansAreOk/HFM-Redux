@@ -1,17 +1,9 @@
-SEG = {
-	value = -100
-}
-
 DND = {
 	value = 30
 }
 
 SOK = {
 	value = 100
-}
-
-MOS = {
-	value = -5
 }
 
 KNG = {
@@ -30,14 +22,6 @@ TOO = {
 	value = 100
 }
 
-ASH = {
-	value = -10
-}
-
-GBU = {
-	value = 5
-}
-
 DAH = {
 	value = -5
 }
@@ -45,6 +29,11 @@ DAH = {
 BEN = {
 	value = -15
 }
+
+GBU = { value = -200 }
+SEG = { value = -200 }
+MOS = { value = -200 }
+ASH = { value = -200 }
 
 leader = {
 	name = "Seku Amadu"

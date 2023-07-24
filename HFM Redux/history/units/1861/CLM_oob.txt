@@ -1,90 +1,36 @@
-leader = {
-	name = "Tomas de Mosquera"
-	date = 1840.1.1
-	type = land
-	personality = resourceful
-	background = politician
-	prestige = 0.2
+ECU = {
+	truce_until = 1837.1.1
+	value = -50
+}
+PBC = {
+	value = -25
 }
 
 army = {
-	name = "Ejército del Sur"
-	location = 2247
+	name = "Ejército de Colombia"
+	location = 2253
 	regiment = {
-		name= "1.1a División de Infantería"
+		name= "1. Brigada de Infantería"
 		type = infantry
 		home = 2247
 	}
 
 	regiment = {
-		name= "2.1a División de Infantería"
+		name= "2. Brigada de Infantería"
 		type = infantry
-		home = 2247
+		home = 2252
 	}
 
 	regiment = {
-		name= "3.1a División de Infantería"
+		name= "3. Brigada de Infantería"
 		type = infantry
-		home = 2247
+		home = 2254
 	}
 
 	regiment = {
-		name= "1.2a División de Infantería"
-		type = irregular
-		home = 2248
-	}
-
-	regiment = {
-		name= "2.2a División de Infantería"
-		type = irregular
-		home = 2248
-	}
-
-	regiment = {
-		name= "3.2a División de Infantería"
-		type = irregular
+		name= "1. Brigada de Caballería"
+		type = cuirassier
 		home = 2250
-	}
-
-}
-
-army = {
-	name = "Ejército del Norte"
-	location = 2255
-	regiment = {
-		name= "1.3a División de Infantería"
-		type = irregular
-		home = 2255
-	}
-
-	regiment = {
-		name= "2.3a División de Infantería"
-		type = irregular
-		home = 2255
-	}
-
-	regiment = {
-		name= "3.3a División de Infantería"
-		type = irregular
-		home = 2255
-	}
-
-	regiment = {
-		name= "1.4a División de Infantería"
-		type = irregular
-		home = 2254
-	}
-
-	regiment = {
-		name= "2.4a División de Infantería"
-		type = irregular
-		home = 2254
-	}
-
-	regiment = {
-		name= "3.4a División de Infantería"
-		type = irregular
-		home = 2254
 	}
 
 }

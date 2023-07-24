@@ -1,75 +1,95 @@
-leader = {
-	name = "Justo Arteaga"
-	date = 1851.1.1
-	type = land
-	personality = careful
-	background = elderly
-	prestige = 0.2
-}
+ECU = { value = -100 }
+PBC = { value = -100 }
 
 army = {
 	name = "Ejército de Chile"
-	location = 2322
+	location = 2324
 	regiment = {
-		name= "1.1ra división de infantería"
-		type = infantry
-		home = 2305
+		name= "1. Brigada de artillería"
+		type = artillery
+		home = 2324
 	}
 
 	regiment = {
-		name= "2.1ra división de infantería"
-		type = infantry
-		home = 2323
-	}
-
-	regiment = {
-		name= "3.1ra división de infantería"
+		name= "1. Brigada de Infantería"
 		type = infantry
 		home = 2324
 	}
 
 	regiment = {
-		name= "1.1ra división de caballería"
-		type = cuirassier
+		name= "2. Brigada de Infantería"
+		type = infantry
 		home = 2325
 	}
 
 	regiment = {
-		name= "2.1ra división de caballería"
-		type = cuirassier
-		home = 2326
-	}
-
-	regiment = {
-		name= "3.1ra división de caballería"
-		type = cuirassier
+		name= "3. Brigada de Infantería"
+		type = infantry
 		home = 2328
 	}
 
+	regiment = {
+		name= "1. Brigada de Caballería"
+		type = cuirassier
+		home = 2324
+	}
 }
-
+	
+leader = {
+	name = "José Joaquín Prieto"
+	type = land
+	date = 1820.8.20
+	background = rising_star
+	personality = bold
+	prestige = 0.01
+	}
+	
+leader = {
+	name = "Robert Winthrop Simpson"
+	type = sea
+	date = 1820.12.14
+	background = school_of_defense
+	personality = au_fait
+	}
+	
 navy = {
-	name = "Chilean Fleet"
+	name = "Chilean Navy"
 	location = 2325
 	ship = {
-		name= "Esmeralda"
-		type = commerce_raider
+		name = "Aquiles"
+		type = frigate
 	}
-
+	
 	ship = {
-		name= "Maipu"
-		type = steam_transport
+		name = "Voltaire"
+		type = frigate
 	}
-
-}
-
-navy = {
-	name = "1st Transport Squadron"
-	location = 2325
+	
 	ship = {
-		name= "1st Transport Flotilla"
+		name = "Orbegoso"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Valparaiso"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Libertad"
+		type = frigate
+	}
+	
+	ship = {
+		name = "1. Buque de transporte"
+		type = clipper_transport
+	}
+	
+	
+	ship = {
+		name = "2. Buque de transporte"
 		type = clipper_transport
 	}
 
 }
-
+	

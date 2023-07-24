@@ -1,0 +1,10 @@
+army = {
+	name = "Onega National Guard"
+	location = 2588
+	regiment = {
+		name= "1. Onega National Guard"
+		type = irregular
+		home = 2588
+	}
+}
+

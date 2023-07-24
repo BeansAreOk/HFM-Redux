@@ -1,7 +1,3 @@
-MOS = {
-	value = 10
-}
-
 JAL = {
 	value = 75
 }
@@ -10,13 +6,10 @@ MAS = {
 	value = 30
 }
 
-SEG = {
-	value = 20
-}
-
-ASH = {
-	value = -20
-}
+GBU = { value = -200 }
+SEG = { value = -200 }
+MOS = { value = -200 }
+ASH = { value = -200 }
 
 army = {
 	name = "Army of the Kong Empire"

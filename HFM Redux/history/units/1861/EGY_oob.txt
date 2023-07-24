@@ -1,21 +1,3 @@
-leader = {
-	name = "Zubayr Pasha"
-	date = 1855.1.1
-	type = land
-	personality = charismatic
-	background = immoral
-	prestige = 0.1
-}
-
-navy = {
-	name = "Egyptian Navy"
-	location = 1751
-	ship = {
-		name= "Al Qahira"
-		type = frigate
-	}
-}
-
 DAR = {
 	value = 80
 }
@@ -24,8 +6,16 @@ WAD = {
 	value = 70
 }
 
-ETH = {
+GON = {
 	value = 75
+}
+
+TIG = {
+	value = 75
+}
+
+SHW = {
+	value = 65
 }
 
 GEL = {
@@ -36,85 +26,93 @@ MAJ = {
 	value = 60
 }
 
-army = {
-	name = "Army of Egypt"
+navy = {
+	name = "Taba"
 	location = 1751
-	regiment = {
-		name= "1.1 Infantry"
-		type = irregular
-		home = 1750
+	ship = {
+		name= "Toushka"
+		type = manowar
 	}
 
-	regiment = {
-		name= "2.1 Infantry"
-		type = irregular
-		home = 1746
+	ship = {
+		name= "Sharm El-Sheikh"
+		type = manowar
 	}
 
-	regiment = {
-		name= "3.1 Infantry"
-		type = irregular
-		home = 1745
+	ship = {
+		name= "Damyat"
+		type = manowar
 	}
 
-	regiment = {
-		name= "1.2 Infantry"
-		type = irregular
-		home = 1745
+	ship = {
+		name= "Rasheed"
+		type = manowar
 	}
 
-	regiment = {
-		name= "2.2 Infantry"
-		type = irregular
-		home = 1751
+	ship = {
+		name= "El Suez"
+		type = manowar
 	}
 
-	regiment = {
-		name= "3.2 Infantry"
-		type = irregular
-		home = 2559
+	ship = {
+		name= "El Aboukir"
+		type = frigate
 	}
 
-	regiment = {
-		name= "1.3 Infantry"
-		type = irregular
-		home = 1764
+	ship = {
+		name= "Najim al Zafir"
+		type = frigate
 	}
 
-	regiment = {
-		name= "2.3 Infantry"
-		type = irregular
-		home = 1746
+	ship = {
+		name= "Cairo"
+		type = frigate
 	}
 
-	regiment = {
-		name= "3.3 Infantry"
-		type = irregular
-		home = 1748
+	ship = {
+		name= "Al Iskandariyah"
+		type = frigate
 	}
 
-	regiment = {
-		name= "1.4th Division"
-		type = irregular
-		home = 1749
+	ship = {
+		name= "Aswan"
+		type = frigate
 	}
 
-	regiment = {
-		name= "2.4th Division"
-		type = irregular
-		home = 1747
+	ship = {
+		name= "Port Said"
+		type = frigate
 	}
 
-	regiment = {
-		name= "3.4th Division"
-		type = irregular
-		home = 1746
+	ship = {
+		name= "Marsa Matruh"
+		type = frigate
+	}
+
+	ship = {
+		name= "Bur Tawfiq"
+		type = frigate
+	}
+
+	ship = {
+		name= "Al Ghardaqah"
+		type = frigate
+	}
+
+	ship = {
+		name= "Bur Safajah"
+		type = frigate
+	}
+
+	ship = {
+		name= "1st transport flotilla"
+		type = clipper_transport
 	}
 
 }
 
 army = {
-	name = "Garrison of Cairo"
+	name = "Army of Egypt"
 	location = 1745
 	regiment = {
 		name= "1.1 Sipahis"
@@ -131,14 +129,91 @@ army = {
 	regiment = {
 		name= "3.1 Sipahis"
 		type = cavalry
+		home = 1745
+	}
+
+	regiment = {
+		name= "1.1 Infantry"
+		type = infantry
+		home = 1745
+	}
+
+	regiment = {
+		name= "2.1 Infantry"
+		type = infantry
+		home = 1745
+	}
+
+	regiment = {
+		name= "3.1 Infantry"
+		type = infantry
 		home = 1750
 	}
-	
+
+	regiment = {
+		name= "1.2 Infantry"
+		type = infantry
+		home = 1751
+	}
+
+	regiment = {
+		name= "2.2 Infantry"
+		type = infantry
+		home = 1751
+	}
+
+	regiment = {
+		name= "3.2 Infantry"
+		type = infantry
+		home = 1747
+	}
 }
-	
+
+army = {
+	name = "Army of Syria"
+	location = 902
+
+	regiment = {
+		name= "1.3 Infantry"
+		type = infantry
+		home = 1746
+	}
+
+	regiment = {
+		name= "2.3 Infantry"
+		type = infantry
+		home = 1752
+	}
+
+	regiment = {
+		name= "3.3 Infantry"
+		type = infantry
+		home = 1748
+	}
+
+	regiment = {
+		name= "1.4th Division"
+		type = infantry
+		home = 1749
+	}
+
+	regiment = {
+		name= "2.4th Division"
+		type = infantry
+		home = 1765
+	}
+
+	regiment = {
+		name= "3.4th Division"
+		type = infantry
+		home = 1764
+	}
+
+}
+
 army = {
 	name = "Army of the Upper Nile"
-	location = 1829
+	location = 1827
 	regiment = {
 		name= "1.2 Sipahis"
 		type = cavalry
@@ -148,31 +223,31 @@ army = {
 	regiment = {
 		name= "2.2 Sipahis"
 		type = cavalry
-		home = 1745
+		home = 1751
 	}
 
 	regiment = {
 		name= "3.2 Sipahis"
 		type = cavalry
-		home = 1751
+		home = 1762
 	}
 
 	regiment = {
 		name= "1.5 Infantry"
-		type = irregular
-		home = 1765
+		type = infantry
+		home = 1827
 	}
 
 	regiment = {
 		name= "2.5 Infantry"
-		type = irregular
-		home = 1762
+		type = infantry
+		home = 1827
 	}
 
 	regiment = {
 		name= "3.5 Infantry"
 		type = irregular
-		home = 1831
+		home = 1828
 	}
 
 	regiment = {
@@ -184,14 +259,32 @@ army = {
 	regiment = {
 		name= "2.6 Infantry"
 		type = irregular
-		home = 1828
+		home = 1830
 	}
 
 	regiment = {
 		name= "3.6 Infantry"
 		type = irregular
-		home = 1827
+		home = 1831
 	}
 
+}
+
+leader = {
+	name = "Ibrahim Pasha"
+	type = land
+	date="1832.1.1"
+	personality = defiant
+	background = expert_raider
+	prestige = 0.3
+}
+
+leader = {
+	name = "Suleyman Pasha"
+	type = land
+	date="1832.1.1"
+	personality = balanced_p
+	background = drillmaster
+	prestige = 0.1
 }
 

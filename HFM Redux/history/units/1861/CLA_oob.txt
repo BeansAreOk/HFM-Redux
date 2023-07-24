@@ -39,9 +39,8 @@ army = {
 	location = 1934	
 regiment = {
 		name= "Calabar Warriors"	
-	type = irregular
-
-	home = 1934	}
-
+		type = irregular
+		home = 1934	
+		}
 }
 

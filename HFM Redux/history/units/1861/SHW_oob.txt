@@ -1,5 +1,6 @@
+
 EGY = {
-	value = 60
+	value = 30
 }
 
 GON = {
@@ -7,11 +8,8 @@ GON = {
 }
 
 TIG = {
+	truce_until = 1841.1.1
 	value = 60
-}
-
-HAR = {
-	value = 40
 }
 
 KAF = {
@@ -22,16 +20,20 @@ SID = {
 	value = 40
 }
 
+HAR = {
+	value = -100
+}
+
 AWS = {
-	value = 40
+	value = -100
 }
 
 leader = {
-   name = "Sahle Selassie"
+   name = "Ras Sahle Selassie"
    type = land
    date = 1836.1.1
    background = gifted_administrator
-   personality = bootlicker
+   personality = vainglorious
 }
 
 army = {
@@ -45,7 +47,7 @@ army = {
 
 	regiment = {
 		name= "Negus' Horsemen"
-		type = hussar
+		type = cavalry
 		home = 1859
 	}
 
@@ -80,3 +82,4 @@ army = {
 	}
 
 }
+

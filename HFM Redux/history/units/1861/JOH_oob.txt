@@ -1,6 +1,10 @@
+ENG = {
+	value = -200
+}
+
 army = {
 	name = "Army of the Sultan of Johore"
-	location = 1385
+	location = 1390
 	regiment = {
 		name= "1.Johore State Troops"
 		type = irregular
@@ -17,12 +21,6 @@ army = {
 		name= "3.Johore State Troops"
 		type = irregular
 		home = 2575
-	}
-
-	regiment = {
-		name= "4.Johore State Troops"
-		type = irregular
-		home = 1390
 	}
 
 }

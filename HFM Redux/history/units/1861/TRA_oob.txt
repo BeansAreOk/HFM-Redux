@@ -18,25 +18,6 @@ army = {
 		type = irregular
 		home = 1319
 	}
-	
-	regiment = {
-		name= "4. Kerala Division"
-		type = irregular
-		home = 1318
-	}
-
-	regiment = {
-		name= "5. Kerala Division"
-		type = irregular
-		home = 1318
-	}
-
-	regiment = {
-		name= "6. Kerala Division"
-		type = cavalry
-		home = 1318
-	}
 
 }
-
 

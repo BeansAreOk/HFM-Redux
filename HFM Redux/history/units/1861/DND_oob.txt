@@ -1,5 +1,5 @@
 DAM = {
-	value = 30
+	value = -50
 }
 
 DAR = {
@@ -14,17 +14,14 @@ SOK = {
 	value = 5
 }
 
-MOS = {
-	value = 30
-}
-
 MAS = {
 	value = 30
 }
 
-SEG = {
-	value = -10
-}
+GBU = { value = -200 }
+SEG = { value = -200 }
+MOS = { value = -200 }
+ASH = { value = -200 }
 
 army = {
 	name = "Army of the Dendi Kingdom"

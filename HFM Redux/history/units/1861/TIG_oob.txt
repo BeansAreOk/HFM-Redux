@@ -1,5 +1,6 @@
+
 EGY = {
-	value = 75
+	value = 30
 }
 
 GON = {
@@ -10,19 +11,19 @@ SHW = {
 	value = 60
 }
 
-AWS = {
-	value = 40
+HAR = {
+	value = -100
 }
 
-HAR = {
-	value = 30
+AWS = {
+	value = -100
 }
 
 leader = {
    name = "Ras Wube Haile Mariam"
    type = land
    date = 1836.1.1
-   background = ballsy
+   background = natural_born_leader
    personality = aggressive
 }
 
@@ -54,3 +55,4 @@ army = {
 	}
 
 }
+

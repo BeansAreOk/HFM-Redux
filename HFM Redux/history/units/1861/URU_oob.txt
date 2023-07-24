@@ -1,32 +1,34 @@
-leader = {
-	name = "Venancio Flores"
-	date = 1854.1.1
-	type = land
-	personality = brash
-	background = hated
-	prestige = 0.2
+SPA = {
+	value = 75
+}
+RGS = {
+	value = 150
+}
+BRZ = {
+	value = -100
+}
+ARC = {
+	value = 100
+}
+SBA = {
+	value = 150
+}
+ENT = {
+	value = 150
 }
 
+PRG = {
+	value = 10
+}
+
+
 army = {
-	name = "Ejército de Uruguay"
+	name = "Ejército del Uruguay"
 	location = 2344
 	regiment = {
-		name= "1.1ra división de infantería"
-		type = infantry
-		home = 2344
-	}
-
-	regiment = {
-		name= "2.1ra división de infantería"
-		type = infantry
-		home = 2347
-	}
-
-	regiment = {
-		name= "3.1ra división de infantería"
+		name= "1. División de Infantería"
 		type = infantry
 		home = 2345
 	}
-
 }
 

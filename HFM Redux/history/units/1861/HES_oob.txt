@@ -1,34 +1,27 @@
 leader = {
-	name = "Prinz Karl von H-D"
-	date = 1861.1.1 #1836
+	name = "Prince Georg"
+	date = 1820.1.1
 	type = land
-	personality = indifferent
-	background = aristocrat
+	personality = mediocre
+	background = old_school
 	prestige = 0.2
 }
 
 leader = {
-	name = "Ludwig IV"
-	date = 1861.1.1 
+	name = "Prince Karl"
+	date = 1836.1.1
 	type = land
-	personality = openminded
+	personality = indifferent
 	background = aristocrat
-	prestige = 0.5
 }
 
 army = {
 	name = "Groﬂherzogliche Armee"
 	location = 2560
 	regiment = {
-		name= "1. Groﬂherzogliche Infanterie-Brigade"
+		name= "1. Groﬂherzogliche Infanterie"
 		type = infantry
 		home = 2560
-	}
-	
-	regiment = {
-		name= "2. Groﬂherzogliche Infanterie-Brigade"
-		type = infantry
-		home = 567
 	}
 
 }

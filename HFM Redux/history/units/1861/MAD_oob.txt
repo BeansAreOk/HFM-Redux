@@ -25,11 +25,6 @@ army = {
 		home = 2116
 	}
 
-}
-
-army = {
-	name = "2nd Merina Army"
-	location = 2116
 	regiment = {
 		name= "5. Infantry Brigade"
 		type = irregular

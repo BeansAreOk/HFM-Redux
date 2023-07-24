@@ -1,17 +1,17 @@
 BSH = {
-	value = 50
+	value = -50
 }
 
 GAZ = {
-	value = 30
+	value = -50
 }
 
 SUA = {
-	value = 40
+	value = 100
 }
 
 XHO = {
-	value = 30
+	value = -70
 }
 
 POR = {

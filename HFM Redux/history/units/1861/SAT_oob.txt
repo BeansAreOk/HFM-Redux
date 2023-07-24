@@ -10,40 +10,32 @@ leader = {
 	background = gifted_administrator
 }
 
-leader = {
-	name = "Kuroda Kiyotaka"
-	type = land
-	date = 1836.1.1
-	personality = merciless
-	background = rising_star
-}
-
 army = {
 	name = "Army of Daimyo Shimazu"
 	location = 1662
 	regiment = {
 		name= "1.Samurai"
-		type = dragoon
+		type = cavalry
 		home = 1662
 	}
 	regiment = {
 		name= "2.Samurai"
-		type = dragoon
+		type = cavalry
 		home = 1662
 	}
 	regiment = {
 		name= "1.Satsuma"
-		type = infantry
+		type = irregular
 		home = 1662
 	}
 	regiment = {
 		name= "2.Satsuma"
-		type = infantry
+		type = irregular
 		home = 1661
 	}
 	regiment = {
 		name= "3.Satsuma"
-		type = infantry
+		type = irregular
 		home = 1660
 	}
 }

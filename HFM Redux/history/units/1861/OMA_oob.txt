@@ -1,41 +1,60 @@
 army = {
-	name = "Royal Army of Oman"
+	name = "Army of the Sultan of Muscat"
 	location = 1166
 	regiment = {
-		name= "1.1/Royal Army"
+		name= "1. Brigade"
+		type = infantry
+		home = 1166
+	}
+	regiment = {
+		name= "2. Brigade"
 		type = irregular
 		home = 1166
 	}
+}
+
+army = {
+	name = "Army of the Wali of Zanzibar"
+	location = 2029
 
 	regiment = {
-		name= "2.1/Royal Army"
-		type = irregular
-		home = 1169
+		name= "1. Askaris"
+		type = infantry
+		home = 2048
 	}
-
+	
 	regiment = {
-		name= "3.1/Royal Army"
-		type = irregular
-		home = 1170
+		name= "2. Askaris"
+		type = infantry
+		home = 2029
 	}
-
 	regiment = {
-		name= "1.2/Royal Army"
+		name= "3. Brigade"
 		type = irregular
-		home = 1171
+		home = 2048
 	}
+}
 
-	regiment = {
-		name= "2.2/Royal Army"
-		type = irregular
-		home = 1172
+navy = {
+	name = "Omani Fleet"
+	location = 1166
+	ship = {
+		name= "Transport Flotilla"
+		type = clipper_transport
 	}
-
-	regiment = {
-		name= "3.2/Royal Army"
-		type = irregular
-		home = 1174
+	ship = {
+		name= "Transport Flotilla"
+		type = clipper_transport
 	}
 
 }
+
+leader = {
+	name = "Said bin Sultan"
+	type = land
+	date = 1807.12.12
+	background = aristocrat
+	personality = aggressive
+	}
+
 

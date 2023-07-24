@@ -1,14 +1,8 @@
-GBU = {
-	value = 10
-}
-
-KNG = {
-	value = 75
-}
-
-SEG = {
-	value = 5
-}
+KNG = { value = 10 }
+GBU = { value = -200 }
+SEG = { value = -200 }
+MOS = { value = -200 }
+ASH = { value = -200 }
 
 WOL = {
 	value = 20

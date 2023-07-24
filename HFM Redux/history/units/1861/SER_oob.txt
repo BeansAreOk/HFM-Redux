@@ -1,61 +1,26 @@
 leader = {
-	name = "Milivoje Blaznavac"
-	date = 1861.1.1
+	name = "Prince Aleksandar"
 	type = land
+	date="1836.1.1"
 	personality = openminded
-	background = artillerist
+	background = gifted_administrator
 }
 
 army = {
-	name = "Serbian Army"
+	name = "Army of the Principality of Serbia"
 	location = 794
 	regiment = {
-		name= "1.1. Division"
+		name= "1st Serbian Infantry"
 		type = infantry
 		home = 794
 	}
 
 	regiment = {
-		name= "2.1. Division"
-		type = infantry
-		home = 794
-	}
-
-	regiment = {
-		name= "3.1. Division"
+		name= "2nd Serbian Infantry"
 		type = infantry
 		home = 795
 	}
 
-	regiment = {
-		name= "4.1. Division"
-		type = cuirassier
-		home = 794
-	}
-
-	regiment = {
-		name= "1.2. Division"
-		type = infantry
-		home = 795
-	}
-
-	regiment = {
-		name= "2.2. Division"
-		type = infantry
-		home = 796
-	}
-
-	regiment = {
-		name= "3.2. Division"
-		type = infantry
-		home = 796
-	}
-
-	regiment = {
-		name= "4.2. Division"
-		type = engineer
-		home = 797
-	}
 
 }
 

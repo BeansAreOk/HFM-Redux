@@ -1,13 +1,22 @@
+POR = {
+	truce_until = 1841.1.1
+	value = 125
+}
+
 ZUL = {
-	value = 30
+	value = -50
 }
 
 MAT = {
-	value = 20
+	value = -150
 }
 
 SUA = {
-	value = 50
+	value = -200
+}
+
+XHO = {
+	value = -70
 }
 
 leader = {

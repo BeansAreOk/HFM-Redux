@@ -1,26 +1,19 @@
 leader = {
-	name = "Nikola I"
-	date = 1861.1.1
+	name = "Mirko Petrovic"
 	type = land
-	personality = spirited
-	background = gifted_administrator
-	prestige = 0.5
+	date="1830.1.1"
+	personality = au_fait
+	background = poet
+	prestige = 0.2
 }
 
 army = {
-	name = "Montenegrin Army"
+	name = "Army of the Prince-Bishop"
 	location = 2583
 	regiment = {
-		name= "1. Brigade"
+		name= "1st Montenegrin Infantry"
 		type = infantry
 		home = 2583
 	}
-
-	regiment = {
-		name= "2. Brigade"
-		type = infantry
-		home = 2583
-	}
-
 }
 

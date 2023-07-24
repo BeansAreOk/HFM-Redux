@@ -12,12 +12,6 @@ army = {
 		type = irregular
 		home = 1438
 	}
-
-	regiment = {
-		name= "3.Karangasem Militia"
-		type = irregular
-		home = 1438
-	}
 }
 
 army = {
@@ -25,13 +19,7 @@ army = {
 	location = 1442
 	
 	regiment = {
-		name= "4.Karangasem Militia"
-		type = irregular
-		home = 1442
-	}
-
-	regiment = {
-		name= "5.Karangasem Militia"
+		name= "3.Karangasem Militia"
 		type = irregular
 		home = 1442
 	}

@@ -11,3 +11,11 @@ army = {
 		home = 1162	}
 }
 
+leader = {
+	name = "Muhammad bin Al-Khalifa	"
+	type = land
+	date = 1836.1.1
+		background = aristocrat
+		personality = skilled
+	}
+

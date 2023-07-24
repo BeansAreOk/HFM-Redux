@@ -1,11 +1,9 @@
 army = {
-	name = "Hamburgische Armee"
+	name = "Hamburger Armee"
 	location = 528
 	regiment = {
-		name= "Hamburgische Infanterie-Brigade"
+		name= "1. Hamburger Infanterie-Brigade"
 		type = infantry
 		home = 528
 	}
-
 }
-

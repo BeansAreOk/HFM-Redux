@@ -1,0 +1,10 @@
+army = {
+	name = "Army of Ulster"
+	location = 254
+	regiment = {
+		name= "1.Ulster Commando"
+		type = irregular
+		home = 254
+	}
+}
+

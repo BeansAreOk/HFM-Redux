@@ -1,3 +1,23 @@
+GON = {
+	value = -200
+}
+
+SHW = {
+	value = -200
+}
+
+TIG = {
+	value = -200
+}
+
+KAF = {
+	value = -200
+}
+
+WRL = {
+	value = -200
+}
+
 TUR = {
 	value = 50
 }
@@ -29,7 +49,7 @@ army = {
 	regiment = {
 		name= "Berbera Warriors"	
 		type = irregular
-		home = 1873
+		home = 1872
 	}
 }
 

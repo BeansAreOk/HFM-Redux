@@ -1,9 +1,10 @@
 army = {
-	name = "Meiningenische Armee"
+	name = "Meiningenische Landwehr"
 	location = 563
 	regiment = {
-		name= "Meiningenische Infanterie-Brigade"
-		type = infantry
+		name= "1. Linieninfanteriebrigade"
+		type = irregular
 		home = 563
 	}
 }
+

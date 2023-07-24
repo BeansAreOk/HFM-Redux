@@ -1,68 +1,109 @@
+USA = {
+	value = 100
+}
+SPA = {
+	value = 75
+}
+
+leader = {
+	name = "Martin de Cos"
+	type = land
+	date="1836.1.1"
+	personality = impulsive
+	background = aristocrat
+	prestige = 0.1
+}
+
+leader = {
+	name = "Nicolas Bravo"
+	type = land
+	date="1836.1.1"
+	personality = heroic
+	background = politician
+}
+
+leader = {
+	name = "Mariano Arista"
+	type = land
+	date="1836.1.1"
+	personality = skilled
+	background = war_college
+}
+
 leader = {
 	name = "Juan Álvarez"
 	type = land
 	date="1836.1.1"
 	personality = skilled
 	background = elderly
-	prestige = 0.3
 }
 
 leader = {
-	name = "Miguel Mirámon"
+	name = "José de Herrera"
 	type = land
-	date="1858.1.1"
-	personality = fanatic
-	background = uncommonly_young
-	prestige = 0.1
+	date="1836.1.1"
+	personality = soldierly
+	background = exranker
 }
 
 army = {
-	name = "Ejército de Ciudad de México"
+	name = "Activo Oajaca"
+	location = 2177
+	regiment = {
+		name= "1.Oajaca y Tlaxcala"
+		type = irregular
+		home = 2177
+	}
+
+	regiment = {
+		name= "2.Oajaca y Tlaxcala"
+		type = irregular
+		home = 2177
+	}
+
+	regiment = {
+		name= "3.Oajaca y Tlaxcala"
+		type = irregular
+		home = 2177
+	}
+
+}
+
+army = {
+	name = "Ejército del Ciudad Mejico"
 	location = 2172
 	regiment = {
-		name= "1.1. Division"
-		type = infantry
-		home = 2172
-	}
-
-	regiment = {
-		name= "2.1. Division"
-		type = infantry
-		home = 2172
-	}
-
-	regiment = {
-		name= "3.1. Division"
+		name= "1.Division Comonfort"
 		type = infantry
 		home = 2176
 	}
 
 	regiment = {
-		name= "4.1. Division"
-		type = hussar
-		home = 2172
+		name= "2.Division Comonfort"
+		type = irregular
+		home = 2176
 	}
+
+	regiment = {
+		name= "3.Division Comonfort"
+		type = irregular
+		home = 2176
+	}
+
 }
 
-army = {
-	name = "Ejército del Norte"
-	location = 2159
-	regiment = {
-		name= "1.2. Division"
-		type = infantry
-		home = 2146
+navy = {
+	name = "Armada de Mexico"
+	location = 2162
+	ship = {
+		name= "Vencedor del Alamo"
+		type = frigate
 	}
 
-	regiment = {
-		name= "2.2. Division"
-		type = infantry
-		home = 2159
+	ship = {
+		name= "Matilda"
+		type = clipper_transport
 	}
 
-	regiment = {
-		name= "3.2. Division"
-		type = infantry
-		home = 2158
-	}
 }
 

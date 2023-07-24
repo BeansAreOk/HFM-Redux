@@ -1,8 +1,8 @@
 army = {
-	name = "Army of the Trucial States"
+	name = "Armies of the Sheikhs"
 	location = 1167
 	regiment = {
-		name= "Trucial Army"
+		name= "1.al Nahyah"
 		type = irregular
 		home = 1167
 	}

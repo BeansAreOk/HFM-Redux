@@ -7,22 +7,22 @@ army = {
 	location = 1640
 	regiment = {
 		name= "1.Samurai"
-		type = dragoon
+		type = cavalry
 		home = 1640
 	}
 	regiment = {
 		name= "1.Choshu"
-		type = infantry
+		type = irregular
 		home = 1640
 	}
 	regiment = {
 		name= "2.Choshu"
-		type = infantry
+		type = irregular
 		home = 1640
 	}
 	regiment = {
 		name= "3.Choshu"
-		type = infantry
+		type = irregular
 		home = 1638
 	}
 }

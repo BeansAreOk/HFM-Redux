@@ -1,32 +1,10 @@
-leader = {
-	name = "Jacobus Wepener"
-	date = 1852.1.1
-	type = land
-	personality = ballsy
-	background = unfit
-	prestige = 0.2
-}
-
 army = {
-	name = "Oranje Army"
-	location = 2103
+	name = "Army of Oranje Vrij Staat"
+	location = 2101
 	regiment = {
-		name= "Bloemfontein Commando"
-		type = dragoon
-		home = 2101
-	}
-
-	regiment = {
-		name= "Winburg Commando"
-		type = dragoon
+		name= "1.Oranje Commando"
+		type = infantry
 		home = 2102
 	}
-
-	regiment = {
-		name= "Philippolis Commando"
-		type = dragoon
-		home = 2103
-	}
-
 }
 

@@ -1,10 +1,28 @@
 leader = {
-	name = "Friedrich Wilhelm"
-	date = 1861.1.1
+	name = "von Dörnberg"
+	date = 1807.1.1
+	type = land
+	personality = audacious
+	background = elderly
+	prestige = 0.3
+}
+
+leader = {
+	name = "Wilhelm II"
+	date = 1813.1.1
+	type = land
+	personality = unruly
+	background = aristocrat
+	prestige = 0.3
+}
+
+leader = {
+	name = "Prince Friedrich"
+	date = 1831.1.1
 	type = land
 	personality = unsound
 	background = aristocrat
-	prestige = 0.5
+	prestige = 0.1
 }
 
 army = {
@@ -18,6 +36,6 @@ army = {
     regiment = {
 		name= "2. Kurhessisches Infanterie-Brigade"
 		type = infantry
-		home = 568
+		home = 566
 	}
 }

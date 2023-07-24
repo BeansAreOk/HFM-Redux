@@ -1,13 +1,33 @@
 XHO = {
-	value = 50
+	value = -50
 }
 
 SUA = {
 	value = 40
 }
 
+MAT = {
+	value = -50
+}
+
+GAZ = {
+	value = -20
+}
+
 ZUL = {
-	value = 30
+	value = -30
+}
+
+ENG = {
+	value = 75
+}
+
+leader = {
+   name = "Moshoeshoe I"
+   type = land
+   date = 1836.1.1
+   background = adventurer
+   personality = skilled
 }
 
 army = {

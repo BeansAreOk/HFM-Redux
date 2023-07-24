@@ -1,26 +1,15 @@
-NET = {
-	value = 40
-}
-
-POR = {
-	value = 35
-}
-
 JAL = {
-	value = 20
+	value = 60
 }
 
 TOO = {
 	value = 60
 }
 
-GBU = {
-	value = 35
-}
-
-SEG = {
-	value = 15
-}
+GBU = { value = -200 }
+SEG = { value = -200 }
+MOS = { value = -200 }
+ASH = { value = -200 }
 
 army = {
 	name = "Army of the Wolof Kingdoms"

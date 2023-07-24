@@ -1,755 +1,370 @@
 #Sphere of Influence
 
-HAN = {	
-	value = 50
+MOL = {
+	value = 125
 	level = 3
-	influence_value = 10
+	influence_value = 0
+}
+WAL = {
+	value = 125
+	level = 3
+	influence_value = 0
 }
 
+#German Minors
 BAD = {	
 	value = 125
 	level = 5
-	influence_value = 25
+	influence_value = 0
 }
-
 BAV = {
 	value = 125
 	level = 5
-	influence_value = 25
+	influence_value = 0
 }
-
 WUR = {
 	value = 125
 	level = 5
-	influence_value = 25
+	influence_value = 0
 }
-
 SAX = {
-	value = 75
-	level = 3
-	influence_value = 5
+	value = 125
+	level = 5
+	influence_value = 0
+}
+ANH = {
+	value = 125
+	military_access = yes
+}
+BRA = {
+	value = 125
+	military_access = yes
+}
+BRE = {
+	value = 125
+	military_access = yes
+}
+COB = {
+	value = 125
+	military_access = yes
+}
+FRM = {
+	value = 125
+	level = 5
+	military_access = yes
+}
+HAM = {
+	value = 125
+	military_access = yes
+}
+HAN = {
+	value = 125
+	level = 4
+	military_access = yes
+}
+HEK = {
+	value = 125
+	level = 5
+	military_access = yes
+}
+HES = {
+	value = 125
+	level = 5
+	military_access = yes
+}
+REU = {
+	value = 125
+	level = 5
+	military_access = yes
+}
+LIP = {
+	value = 125
+	military_access = yes
+}
+SCL = {
+	value = 125
+	level = 5
+	military_access = yes
+}
+LUB = {
+	value = 125
+	military_access = yes
+}
+MEC = {
+	value = 125
+	military_access = yes
+}
+MEI = {
+	value = 125
+	military_access = yes
+}
+NAS = {
+	value = 125
+	level = 5
+	military_access = yes
+}
+OLD = {
+	value = 125
+	military_access = yes
+}
+WEI = {
+	value = 125
+	military_access = yes
+}
+LIE = {	
+	value = 125
+	level = 5
+	influence_value = 0
 }
 
+#Europe
+KRA = {
+	value = 125
+	level = 5
+	influence_value = 0
+}
 SER = {
 	value = 75
 	level = 2
-	influence_value = 25
+	influence_value = 0
 }
-
+SAR = {
+	value = 50
+	level = 2
+	influence_value = 0
+}
 PAP = {
 	value = 125
 	level = 3
-	influence_value = 25
+	influence_value = 0
 }
-
 SWI = {
 	value = 125
 	level = 3
-	influence_value = 25
+	influence_value = 0
 }
-
+PAR = {
+	value = 100
+	level = 5
+}
+MOD = {
+	value = 100
+	level = 5
+	influence_value = 0
+}
+TUS = {
+	value = 75
+	level = 5
+	influence_value = 0
+}
+LUC = {
+	value = 75
+	level = 5
+	influence_value = 0
+}
 DEN = {
-	value = 155
+	value = 55
 } 
 
-PRU = {
-	value = -50
+#Other GP's
+ENG = { value = -75 }
+FRA = { value = -50 }
+RUS = { value = 150 }
+USA = { value = 25 }
+PRU = { value = 150 }
+TUR = { value = 25 }
+SPA = { value = 0 }
+
+
+#Africa
+MOR = {
+	value = 75
+}
+EGY = {
+	value = 0
+	level = 2
+	influence_value = 0
 }
 
-RUS = {
-	value = 80
-}
-
-#Leaders
-
-leader = {
-	name = "Erzerhog Albrecht"
-	date = 1861.1.1 #1840
-	type = land
-	personality = intelligent
-	background = aristocrat
-	prestige = 0.2
-}
-
-leader = {
-	name = "Eduard von Clam-Gallas"
-	date = 1852.1.1
-	type = land
-	personality = calm
-	background = cavalry_school
-	prestige = 0.2
-}
-
-leader = {
-	name = "Ludwig von Benedek"
-	date = 1849.1.1
-	type = land
-	personality = steadfast
-	background = unqualified
-	prestige = 0.2
-}
-
-leader = {
-	name = "von Gablenz"
-	date = 1854.1.1
-	type = land
-	personality = bold
-	background = cavalry_school
-	prestige = 0.2
-}
-
-leader = {
-	name = "Ramming von Riedkirchen"
-	date = 1854.1.1
-	type = land
-	personality = brash
-	background = unfit
-	prestige = 0.2
-}
-
-leader = {
-	name = "Joseph Philippovic"
-	date = 1859.1.1
-	type = land
-	personality = relentless
-	background = school_of_offense
-	prestige = 0.1
-}
-
-leader = {
-	name = "Franz von John"
-	date = 1861.1.1
-	type = land
-	personality = competent
-	background = generals_aide
-}
-
-leader = {
-	name = "Kuhn von Khunenfeld"
-	date = 1861.1.1
-	type = land
-	personality = arrogant
-	background = professor
-}
-
-leader = {
-	name = "von Tegethoff"
-	date = 1861.1.1
-	type = sea
-	personality = daring
-	background = school_of_offense
-}
+#Army
 
 army = {
-	name = "Grenztruppen Slavonien"
-	location = 771
+	name = "I. Armee"
+	location = 726
 	regiment = {
-		name= "1.1. Grenzdivision"
-		type = infantry
-		home = 648
+		name= "1.1. Kavalleriedivision"
+		type = cuirassier
+		home = 619
 	}
 
 	regiment = {
-		name= "2.1. Grenzdivision"
-		type = infantry
-		home = 704
+		name= "2.1. Kavalleriedivision"
+		type = cuirassier
+		home = 639
 	}
 
 	regiment = {
-		name= "3.1. Grenzdivision"
-		type = infantry
-		home = 705
+		name= "3.1. Kavalleriedivision"
+		type = cuirassier
+		home = 631
 	}
 
 	regiment = {
-		name= "1.2. Grenzdivision"
+		name= "2.2. Infanteriedivision"
 		type = infantry
-		home = 702
+		home = 729
 	}
 
 	regiment = {
-		name= "2.2. Grenzdivision"
-		type = infantry
-		home = 952
-	}
-
-	regiment = {
-		name= "3.2. Grenzdivision"
-		type = infantry
-		home = 641
-	}
-
-}
-
-army = {
-	name = "Grenztruppen Wallachei" #done
-	location = 659
-	regiment = {
-		name= "1.4. Grenzdivision"
-		type = infantry
-		home = 647
-	}
-
-	regiment = {
-		name= "2.4. Grenzdivision"
-		type = infantry
-		home = 647
-	}
-
-	regiment = {
-		name= "3.4. Grenzdivision"
-		type = infantry
-		home = 651
-	}
-
-	regiment = {
-		name= "1.5. Grenzdivision"
-		type = infantry
-		home = 646
-	}
-
-	regiment = {
-		name= "2.5. Grenzdivision"
-		type = infantry
-		home = 646
-	}
-
-	regiment = {
-		name= "3.5. Grenzdivision"
-		type = infantry
-		home = 950
-	}
-
-}
-
-army = {
-	name = "Grenztruppen Kroatien" #done
-	location = 772
-	regiment = {
-		name= "1.6. Grenzdivision"
+		name= "3.2. Infanteriedivision"
 		type = infantry
 		home = 771
 	}
 
 	regiment = {
-		name= "2.6. Grenzdivision"
-		type = infantry
-		home = 773
-	}
-
-	regiment = {
-		name= "3.6. Grenzdivision"
-		type = infantry
-		home = 768
-	}
-
-	regiment = {
-		name= "1.7. Grenzdivision"
-		type = infantry
-		home = 768
-	}
-
-	regiment = {
-		name= "2.7. Grenzdivision"
-		type = infantry
-		home = 767
-	}
-
-	regiment = {
-		name= "3.7. Grenzdivision"
-		type = infantry
-		home = 621
-	}
-
-	regiment = {
-		name= "1.8. Grenzdivision"
-		type = infantry
-		home = 621
-	}
-
-	regiment = {
-		name= "2.8. Grenzdivision"
-		type = infantry
-		home = 950
-	}
-
-	regiment = {
-		name= "3.8. Grenzdivision"
-		type = infantry
-		home = 950
-	}
-
-}
-
-army = {
-	name = "Grenztruppen Serbien" #done
-	location = 653
-	regiment = {
-		name= "1.9. Grenzdivision"
-		type = infantry
-		home = 652
-	}
-
-	regiment = {
-		name= "2.9. Grenzdivision"
-		type = infantry
-		home = 652
-	}
-
-	regiment = {
-		name= "3.9. Grenzdivision"
-		type = infantry
-		home = 652
-	}
-
-	regiment = {
-		name= "1.10. Grenzdivision"
-		type = infantry
-		home = 650
-	}
-
-	regiment = {
-		name= "2.10. Grenzdivision"
-		type = infantry
-		home = 649
-	}
-
-	regiment = {
-		name= "3.10. Grenzdivision"
-		type = infantry
-		home = 649
-	}
-
-	regiment = {
-		name= "1.11. Grenzdivision"
-		type = infantry
-		home = 649
-	}
-
-	regiment = {
-		name= "2.11. Grenzdivision"
-		type = infantry
-		home = 714
-	}
-
-}
-
-army = {
-	name = "I. Armeekorps" #done
-	location = 619
-	regiment = {
-		name= "1.1. Division"
-		type = infantry
-		home = 619
-	}
-
-	regiment = {
-		name= "2.1. Division"
-		type = infantry
-		home = 619
-	}
-
-	regiment = {
-		name= "3.1. Division"
-		type = infantry
-		home = 619
-	}
-
-	regiment = {
-		name= "4.1. Division"
-		type = artillery
-		home = 619
-	}
-
-	regiment = {
-		name= "1.2. Division"
-		type = infantry
-		home = 619
-	}
-
-	regiment = {
-		name= "2.2. Division"
-		type = infantry
-		home = 619
-	}
-
-	regiment = {
-		name= "3.2. Division"
-		type = infantry
-		home = 619
-	}
-
-	regiment = {
-		name= "1.3. Division"
-		type = infantry
-		home = 619
-	}
-
-	regiment = {
-		name= "2.3. Division"
-		type = infantry
-		home = 619
-	}
-
-	regiment = {
-		name= "3.3. Division"
-		type = engineer
-		home = 620
-	}
-
-}
-
-army = {
-	name = "II. Armeekorps" #done
-	location = 613
-	regiment = {
-		name= "1.4. Division"
-		type = infantry
-		home = 625
-	}
-
-	regiment = {
-		name= "2.4. Division"
-		type = infantry
-		home = 625
-	}
-
-	regiment = {
-		name= "3.4. Division"
-		type = infantry
-		home = 625
-	}
-
-	regiment = {
-		name= "4.4. Division"
-		type = artillery
-		home = 625
-	}
-
-	regiment = {
-		name= "1.5. Division"
-		type = infantry
-		home = 625
-	}
-
-	regiment = {
-		name= "2.5. Division"
-		type = infantry
-		home = 625
-	}
-
-	regiment = {
-		name= "3.5. Division"
-		type = infantry
-		home = 625
-	}
-
-	regiment = {
-		name= "4.5. Division"
-		type = engineer
-		home = 625
-	}
-
-
-}
-
-army = {
-	name = "IV. Armeekorps" #done
-	location = 617
-	regiment = {
-		name= "1.7. Division"
-		type = infantry
-		home = 614
-	}
-
-	regiment = {
-		name= "2.7. Division"
-		type = infantry
-		home = 612
-	}
-
-	regiment = {
-		name= "3.7. Division"
-		type = infantry
-		home = 735
-	}
-
-	regiment = {
-		name= "4.7. Division"
-		type = artillery
-		home = 734
-	}
-
-	regiment = {
-		name= "1.8. Division"
-		type = infantry
-		home = 641
-	}
-
-	regiment = {
-		name= "2.8. Division"
-		type = infantry
-		home = 613
-	}
-
-	regiment = {
-		name= "3.8. Division"
-		type = infantry
-		home = 617
-	}
-
-	regiment = {
-		name= "1.9. Division"
+		name= "1.3. Infanteriedivision"
 		type = infantry
 		home = 618
 	}
 
 	regiment = {
-		name= "2.9. Division"
+		name= "2.3. Infanteriedivision"
 		type = infantry
-		home = 622
+		home = 773
 	}
 
 	regiment = {
-		name= "3.9. Division"
-		type = engineer
-		home = 622
+		name= "3.3. Infanteriedivision"
+		type = artillery
+		home = 728
 	}
-
 }
 
 army = {
-	name = "V. Armeekorps" #done
-	location = 734
+	name = "II. Armee"
+	location = 702
 	regiment = {
-		name= "1.10. Division"
+		name= "1.6. Infanteriedivision"
 		type = infantry
-		home = 689
+		home = 627
 	}
 
 	regiment = {
-		name= "2.10. Division"
+		name= "2.6. Infanteriedivision"
 		type = infantry
-		home = 625
-	}
-
-	regiment = {
-		name= "3.10. Division"
-		type = infantry
-		home = 625
-	}
-
-	regiment = {
-		name= "4.10. Division"
-		type = artillery
-		home = 644
-	}
-
-	regiment = {
-		name= "1.11. Division"
-		type = infantry
-		home = 644
-	}
-
-	regiment = {
-		name= "2.11. Division"
-		type = infantry
-		home = 637
-	}
-
-	regiment = {
-		name= "3.11. Division"
-		type = infantry
-		home = 637
-	}
-
-	regiment = {
-		name= "1.12. Division"
-		type = infantry
-		home = 703
-	}
-
-	regiment = {
-		name= "2.12. Division"
-		type = infantry
-		home = 616
-	}
-
-	regiment = {
-		name= "3.12. Division"
-		type = engineer
 		home = 640
 	}
 
+	regiment = {
+		name= "3.6. Infanteriedivision"
+		type = infantry
+		home = 705
+	}
+
+	regiment = {
+		name= "1.7. Infanteriedivision"
+		type = infantry
+		home = 630
+	}
+
+	regiment = {
+		name= "2.7. Infanteriedivision"
+		type = infantry
+		home = 643
+	}
+
+	regiment = {
+		name= "3.7. Infanteriedivision"
+		type = infantry
+		home = 702
+	}
+
 }
 
 army = {
-	name = "XI. Armeekorps" #done
+	name = "III. Armee"
+	location = 619
+	regiment = {
+		name= "1.8. Infanteriedivision"
+		type = infantry
+		home = 628
+	}
+
+	regiment = {
+		name= "2.8. Infanteriedivision"
+		type = infantry
+		home = 642
+	}
+
+	regiment = {
+		name= "3.8. Infanteriedivision"
+		type = infantry
+		home = 768
+	}
+
+	regiment = {
+		name= "1.9. Infanteriedivision"
+		type = infantry
+		home = 624
+	}
+
+	regiment = {
+		name= "2.9. Infanteriedivision"
+		type = infantry
+		home = 649
+	}
+
+	regiment = {
+		name= "3.9. Infanteriedivision"
+		type = infantry
+		home = 633
+	}
+
+}
+
+army = {
+	name = "IV. Armee"
 	location = 729
 	regiment = {
-		name= "1.1. Jägerdivision"
+		name= "1.4. Infanteriedivision"
 		type = infantry
-		home = 630
+		home = 612
 	}
 
 	regiment = {
-		name= "2.1. Jägerdivision"
-		type = infantry
-		home = 630
-	}
-
-	regiment = {
-		name= "3.1. Jägerdivision"
-		type = infantry
-		home = 630
-	}
-
-	regiment = {
-		name= "4.1. Jägerdivision"
-		type = engineer
-		home = 631
-	}
-
-	regiment = {
-		name= "1.2. Jägerdivision"
-		type = infantry
-		home = 631
-	}
-
-	regiment = {
-		name= "2.2. Jägerdivision"
-		type = infantry
-		home = 632
-	}
-
-	regiment = {
-		name= "3.2. Jägerdivision"
-		type = infantry
-		home = 632
-	}
-
-	regiment = {
-		name= "4.2. Jägerdivision"
-		type = infantry
-		home = 632
-	}
-
-	regiment = {
-		name= "1.3. Jägerdivision"
-		type = infantry
-		home = 641
-	}
-
-	regiment = {
-		name= "2.3. Jägerdivision"
-		type = infantry
-		home = 641
-	}
-
-	regiment = {
-		name= "3.3. Jägerdivision"
-		type = infantry
-		home = 643
-	}
-
-	regiment = {
-		name= "4.3. Jägerdivision"
-		type = artillery
-		home = 643
-	}
-
-}
-
-
-
-
-
-army = {
-	name = "VIII. Armeekorps" #done
-	location = 628
-	regiment = {
-		name= "1.22. Division"
-		type = infantry
-		home = 628
-	}
-
-	regiment = {
-		name= "2.22. Division"
-		type = infantry
-		home = 628
-	}
-
-	regiment = {
-		name= "3.22. Division"
-		type = infantry
-		home = 627
-	}
-
-	regiment = {
-		name= "4.22. Division"
-		type = artillery
-		home = 627
-	}
-
-	regiment = {
-		name= "1.23. Division"
-		type = infantry
-		home = 627
-	}
-
-	regiment = {
-		name= "2.23. Division"
-		type = infantry
-		home = 626
-	}
-
-	regiment = {
-		name= "3.23. Division"
-		type = infantry
-		home = 626
-	}
-
-	regiment = {
-		name= "1.24. Division"
-		type = infantry
-		home = 626
-	}
-
-	regiment = {
-		name= "2.24. Division"
+		name= "2.4. Infanteriedivision"
 		type = infantry
 		home = 629
 	}
 
 	regiment = {
-		name= "3.24. Division"
-		type = engineer
-		home = 629
+		name= "3.4. Infanteriedivision"
+		type = infantry
+		home = 726
 	}
 
+	regiment = {
+		name= "1.5. Infanteriedivision"
+		type = infantry
+		home = 614
+	}
+
+	regiment = {
+		name= "2.5. Infanteriedivision"
+		type = infantry
+		home = 648
+	}
+
+	regiment = {
+		name= "3.5. Infanteriedivision"
+		type = infantry
+		home = 714
+	}
 }
 
 army = {
-	name = "I. Kavalleriekorps" #done
-	location = 624
-	regiment = {
-		name= "1.1. Kavalleriedivision"
-		type = hussar
-		home = 624
-	}
-
-	regiment = {
-		name= "2.1. Kavalleriedivision"
-		type = hussar
-		home = 624
-	}
-
-	regiment = {
-		name= "3.1. Kavalleriedivision"
-		type = hussar
-		home = 629
-	}
-
+	name = "V. Armee"
+	location = 641
 	regiment = {
 		name= "1.2. Kavalleriedivision"
 		type = cuirassier
@@ -759,146 +374,128 @@ army = {
 	regiment = {
 		name= "2.2. Kavalleriedivision"
 		type = cuirassier
-		home = 631
+		home = 641
 	}
 
 	regiment = {
 		name= "3.2. Kavalleriedivision"
 		type = cuirassier
-		home = 631
+		home = 626
 	}
 
 	regiment = {
-		name= "1.3. Kavalleriedivision"
-		type = cuirassier
-		home = 633
+		name= "1.1. Infanteriedivision"
+		type = infantry
+		home = 613
 	}
 
 	regiment = {
-		name= "2.3. Kavalleriedivision"
-		type = cuirassier
-		home = 633
+		name= "2.1. Infanteriedivision"
+		type = infantry
+		home = 644
 	}
 
 	regiment = {
-		name= "3.3. Kavalleriedivision"
-		type = cuirassier
-		home = 641
-	}
-
-}
-
-army = {
-	name = "II. Kavalleriekorps" #done
-	location = 641
-	regiment = {
-		name= "1.4. Kavalleriedivision"
-		type = dragoon
-		home = 623
+		name= "3.1. Infanteriedivision"
+		type = infantry
+		home = 625
 	}
 
 	regiment = {
-		name= "2.4. Kavalleriedivision"
-		type = dragoon
-		home = 639
+		name= "1.2. Infanteriedivision"
+		type = infantry
+		home = 616
 	}
-
-	regiment = {
-		name= "3.4. Kavalleriedivision"
-		type = dragoon
-		home = 639
-	}
-
-	regiment = {
-		name= "1.5. Kavalleriedivision"
-		type = dragoon
-		home = 639
-	}
-
-	regiment = {
-		name= "2.5. Kavalleriedivision"
-		type = dragoon
-		home = 642
-	}
-
-	regiment = {
-		name= "3.5. Kavalleriedivision"
-		type = dragoon
-		home = 642
-	}
-
-	regiment = {
-		name= "1.6. Kavalleriedivision"
-		type = dragoon
-		home = 688
-	}
-
-	regiment = {
-		name= "2.6. Kavalleriedivision"
-		type = dragoon
-		home = 634
-	}
-
-	regiment = {
-		name= "3.6. Kavalleriedivision"
-		type = dragoon
-		home = 635
-	}
-
 }
 
 navy = {
-	name = "K & K Kriegsflotte"
-	location = 736
+	name = "Austrian Imperial Navy"
+	location = 729
 	ship = {
-		name= "SMS Ferdinand Max"
-		type = manowar
+		name= "1. Klipperflottille"
+		type = clipper_transport
 	}
 
 	ship = {
-		name= "SMS Schwarzenberg"
-		type = frigate
+		name= "2. Klipperflottille"
+		type = clipper_transport
 	}
 
 	ship = {
-		name= "SMS Aurora"
-		type = frigate
+		name= "3. Klipperflottille"
+		type = clipper_transport
 	}
 
-	ship = {
-		name= "SMS Donau"
-		type = frigate
-	}
+}
 
-	ship = {
-		name= "SMS Bellona"
-		type = frigate
-	}
+leader = {
+	name = "Josef Radetzky"
+	date = 1805.1.1
+	type = land
+	personality = au_fait
+	background = elderly
+	prestige = 0.3
+}
 
-	ship = {
-		name= "SMS Novara"
-		type = frigate
-	}
+leader = {
+	name = "Julius von Haynau"
+	date = 1835.1.1
+	type = land
+	personality = wrathful
+	background = natural_born_leader
+	prestige = 0.1
+}
 
-	ship = {
-		name= "SMS Radetsky"
-		type = frigate
-	}
+leader = {
+	name = "von Mittrowitz-Nettolitzky"
+	date = 1835.1.1
+	type = land
+	personality = active_p
+	background = aristocrat
+	prestige = 0.1
+}
 
-	ship = {
-		name= "SMS Kaiser"
-		type = commerce_raider
-	}
+leader = {
+	name = "Hermann von Hess"
+	date = 1834.1.1
+	type = land
+	personality = aggressive
+	background = generals_aide
+	prestige = 0.1
+}
 
-	ship = {
-		name= "SMS Helgoland"
-		type = commerce_raider
-	}
+leader = {
+	name = "d’Aspre und Hoobreuck"
+	date = 1832.1.1
+	type = land
+	personality = bold
+	background = drillmaster
+	prestige = 0.1
+}
 
-	ship = {
-		name= "SMS Frundsberg"
-		type = commerce_raider
-	}
+leader = {
+	name = "Alfred von Windischgraetz"
+	date = 1826.1.1
+	type = land
+	personality = arrogant
+	background = butcher
+	prestige = 0.3
+}
 
+leader = {
+	name = "Erzherzog Albrecht"
+	date = 1836.1.1
+	type = land
+	personality = active_p
+	background = aristocrat
+}
+
+leader = {
+	name = "Paolucci delle Roncole"
+	date = 1824.1.1
+	type = sea
+	personality = competent
+	background = aristocrat
+	prestige = 0.1
 }
 

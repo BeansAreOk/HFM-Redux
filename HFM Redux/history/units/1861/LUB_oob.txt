@@ -1,9 +1,10 @@
 army = {
-	name = "Lübecker Armee"
+	name = "Lubeck's Militia"
 	location = 530
 	regiment = {
-		name= "Lübecker Infanterie-Brigade"
+		name= "1st Division"
 		type = infantry
 		home = 530
 	}
 }
+
