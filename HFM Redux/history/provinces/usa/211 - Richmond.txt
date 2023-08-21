@@ -13,11 +13,11 @@ party_loyalty = {
 	loyalty_value = 12
 }
 
-#state_building = {
-#	level = 1
-#	building = small_arms_factory
-#	upgrade = yes
-#}
+state_building = {
+	level = 1
+	building = small_arms_factory
+	upgrade = yes
+}
 1861.1.1 = {
 	owner = CSA
 	controller = CSA
