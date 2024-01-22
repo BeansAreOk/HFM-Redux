@@ -105,9 +105,9 @@
 	}
 
 	artisans = {
-		culture = greek
+		culture = gypsy
 		religion = orthodox
-		size = 2500
+		size = 1700
 	}
 
 	farmers = {
@@ -117,13 +117,13 @@
 	}
 	
 	soldiers = {
-		culture = greek
+		culture = gypsy
 		religion = orthodox
 		size = 1000
 	}
 
 	clergymen = {
-		culture = sephardic
+		culture = gypsy
 		religion = jewish
 		size = 150
 	}
@@ -135,7 +135,7 @@
 	}
 	
 	artisans = {
-		culture = sephardic
+		culture = gypsy
 		religion = jewish
 		size = 1100
 	}
@@ -253,13 +253,13 @@
 	}
 
 	artisans = {
-		culture = turkish
+		culture = gypsy
 		religion = sunni
 		size = 800
 	}
 
 	soldiers = {
-		culture = turkish
+		culture = gypsy
 		religion = sunni
 		size = 400
 	}
@@ -325,13 +325,13 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = gypsy
 		religion = orthodox
 		size = 225
 	}
 
 	artisans = {
-		culture = greek
+		culture = gypsy
 		religion = orthodox
 		size = 900
 	}
@@ -343,7 +343,7 @@
 	}
 
 	artisans = {
-		culture = sephardic
+		culture = gypsy
 		religion = jewish
 		size = 300
 	}
@@ -895,13 +895,13 @@
 	}
 
 	clergymen = {
-		culture = greek
+		culture = gypsy
 		religion = orthodox
 		size = 200
 	}
 
 	artisans = {
-		culture = greek
+		culture = gypsy
 		religion = orthodox
 		size = 450
 	}
@@ -933,7 +933,13 @@
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 2550
+		size = 2000
+	}
+
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 1000
 	}
 }
 #Dedeagatch (72000/18000 POPS)
@@ -945,13 +951,13 @@
 	}
 
 	clergymen = {
-		culture = turkish
+		culture = gypsy
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = turkish
+		culture = gypsy
 		religion = sunni
 		size = 400
 	}
@@ -1013,7 +1019,13 @@
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 3625
+		size = 2800
+	}
+
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 850
 	}
 }
 #Thessaly Region (408000)  

@@ -3256,17 +3256,17 @@ country_event = {
 		}
 
 		#Remove cores from the Baltic States
-		any_owned = {
-			limit = {
-				OR = {
-					is_core = LAT
-					is_core = LIT
-					is_core = EST
-					is_core = UBD
-				}
-			}
-			remove_core = RUS
-		}
+		#any_owned = {
+			#limit = {
+				#OR = {
+					#is_core = LAT
+					#is_core = LIT
+					#is_core = EST
+					#is_core = UBD
+				#}
+			#}
+			#remove_core = RUS
+		#}
 		
 		#Secede Baltic to Germany, if truce
 		any_owned = {

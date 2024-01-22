@@ -531,9 +531,9 @@
 798 = {
 
 	soldiers = {
-		culture = serb
+		culture = gypsy
 		religion = orthodox
-		size = 1350
+		size = 1000
 	}
 
 	clergymen = {
@@ -624,9 +624,9 @@
 799 = {
 
 	soldiers = {
-		culture = serb
+		culture = gypsy
 		religion = orthodox
-		size = 1100
+		size = 700
 	}
 
 	clergymen = {
@@ -636,7 +636,7 @@
 	}
 
 	artisans = {
-		culture = serb
+		culture = gypsy
 		religion = orthodox
 		size = 1500
 	}

@@ -1485,7 +1485,7 @@ country_event = {
 		1651 = {
 			add_province_modifier = {
 				name = gateway_to_harbor
-				duration = 14600
+				duration = 1825
 			}
 			add_province_modifier = {
 				name = baby_boom
@@ -1496,7 +1496,7 @@ country_event = {
 		1655 = {
 			add_province_modifier = {
 				name = gateway_to_harbor
-				duration = 14600
+				duration = 1825
 			}
 			add_province_modifier = {
 				name = baby_boom
@@ -1530,11 +1530,11 @@ country_event = {
 		1649 = {
 			add_province_modifier = {
 				name = gateway_to_harbor
-				duration = 14600
+				duration = 1825
 			}
 			add_province_modifier = {
 				name = small_baby_boom
-				duration = 14600
+				duration = 1825
 			}
 			add_province_modifier = {
 				name = baby_boom
@@ -1545,7 +1545,7 @@ country_event = {
 		}
 		add_country_modifier = {
 			name = global_baby_boom_small
-			duration = 5475
+			duration = 1825
 		}
 		add_country_modifier = {
 			name = global_baby_boom
@@ -1562,11 +1562,11 @@ country_event = {
 		1657 = {
 			add_province_modifier = {
 				name = gateway_to_harbor
-				duration = 14600
+				duration = 1825
 			}
 			add_province_modifier = {
 				name = small_baby_boom
-				duration = 14600
+				duration = 1825
 			}
 			add_province_modifier = {
 				name = baby_boom
@@ -1575,7 +1575,7 @@ country_event = {
 		}
 		add_country_modifier = {
 			name = global_baby_boom_small
-			duration = 5475
+			duration = 1825
 		}
 		add_country_modifier = {
 			name = global_baby_boom
@@ -1684,11 +1684,11 @@ country_event = {
 		1649 = {
 			add_province_modifier = {
 				name = gateway_to_harbor
-				duration = 14600
+				duration = 1825
 			}
 			add_province_modifier = {
 				name = small_baby_boom
-				duration = 14600
+				duration = 1825
 			}
 			add_province_modifier = {
 				name = baby_boom
@@ -1698,7 +1698,7 @@ country_event = {
 		}
 		add_country_modifier = {
 			name = global_baby_boom_small
-			duration = 5475
+			duration = 4000
 		}
 		random_country = {
 			limit = {

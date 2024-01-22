@@ -83,7 +83,13 @@
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 9950
+		size = 8000
+	}
+
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 3500
 	}
 	
 	clergymen = {
@@ -211,7 +217,13 @@
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 10825
+		size = 8000
+	}
+
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 2800
 	}
 
 	artisans = {
@@ -303,13 +315,25 @@
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 2000
+		size = 1500
+	}
+
+	artisans = {
+		culture = gypsy
+		religion = orthodox
+		size = 1000
+	}
+
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 2100
 	}
 
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 5475
+		size = 3500
 	}
 
 	artisans = {
@@ -465,7 +489,7 @@
 	}
 
 	artisans = {
-		culture = armenian
+		culture = gypsy
 		religion = orthodox
 		size = 5000
 	}
@@ -613,13 +637,25 @@
 	artisans = {
 		culture = armenian
 		religion = orthodox
-		size = 2500
+		size = 1500
+	}
+
+	artisans = {
+		culture = gypsy 
+		religion = orthodox
+		size = 1800
 	}
 
 	farmers = {
 		culture = armenian
 		religion = orthodox
 		size = 3450
+	}
+
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 2100
 	}
 }
 #Izmit (316000/79000 POPS)
@@ -679,21 +715,21 @@
 	}
 	
 	soldiers = {
-		culture = armenian
+		culture = gypsy
 		religion = orthodox
-		size = 125
+		size = 250
 	}
 
 	clergymen = {
-		culture = armenian
+		culture = gypsy
 		religion = orthodox
-		size = 125
+		size = 300
 	}
 
 	artisans = {
-		culture = armenian
+		culture = gypsy
 		religion = orthodox
-		size = 700
+		size = 3000
 	}
 
 	farmers = {
@@ -784,6 +820,12 @@
 		size = 5500
 	}
 
+	artisans = {
+		culture = gypsy
+		religion = orthodox
+		size = 3000
+	}
+
 	farmers = {
 		culture = greek
 		religion = orthodox
@@ -826,8 +868,14 @@
 		size = 6425
 	}
 
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 5100
+	}
+
 	artisans = {
-		culture = sephardic
+		culture = gypsy
 		religion = jewish
 		size = 500
 	}
@@ -867,7 +915,7 @@
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 38325
+		size = 34000
 	}
 	
 	soldiers = {
@@ -892,6 +940,18 @@
 		culture = greek
 		religion = orthodox
 		size = 8475
+	}
+
+	artisans = {
+		culture = gypsy
+		religion = orthodox
+		size = 500
+	}
+
+	farmers = {
+		culture = gypsy
+		religion = orthodox
+		size = 2500
 	}
 }
 #Chanakkale (132000/33000 POPS)
@@ -923,9 +983,15 @@
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 27600
+		size = 24500
 	}
 	
+	farmers = {
+		culture = gypsy
+		religion = sunni
+		size = 2500
+	}
+
 	soldiers = {
 		culture = greek
 		religion = orthodox
@@ -1229,7 +1295,13 @@
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 40350
+		size = 35000
+	}
+
+	farmers = {
+		culture = gypsy
+		religion = sunni
+		size = 5500
 	}
 
 	aristocrats = {
@@ -2225,9 +2297,15 @@
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 21125
+		size = 17500
 	}
 	
+	farmers = {
+		culture = gypsy
+		religion = sunni
+		size = 1400
+	}
+
 	soldiers = {
 		culture = greek
 		religion = orthodox

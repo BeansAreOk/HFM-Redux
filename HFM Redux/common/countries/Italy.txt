@@ -167,6 +167,22 @@ party = {
 	war_policy = jingoism
 }
 
+party = {
+	name = "ITA_fascist_2"
+	start_date = 1900.1.1
+	end_date = 2000.1.1
+
+	ideology = fascist
+
+	social_policy = populist_welfare
+	economic_policy = interventionism
+	trade_policy = protectionism
+	religious_policy = secularized
+	citizenship_policy = limited_citizenship
+	war_policy = jingoism
+}
+
+
 unit_names = {
 	dreadnought = {
 		"Dante Alighieri" "Conti di Cavour" "Giulio Cesare" "Leonarda da Vince" "Andrea Doria" Duilio "Francesco Caracciolo" Littorio Roma Terribile Formidabile "Principe di Carignano" Messina "Conte Verde" "Re d'Italia" "Re di Portogallo" "Regina Maria Pia" "San Martino" Castelfidardo Ancona Affondatore "Principe Amedeo" Italia Lepanto "Ruggiero di Lauria" "Francesco Morosini" "Emanuele Filiberto"

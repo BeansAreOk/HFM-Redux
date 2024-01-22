@@ -132,6 +132,7 @@ ITA_socialist_2;Partito Socialista Italiano;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 ITA_anarcho_liberal;L'Estrema Liberale;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 ITA_communist;Partito Comunista d'Italia;;;;;;;;;;;;;;;;;;;;;x;;;;
 ITA_fascist;Partito Nazionale Fascista;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ITA_fascist_2;Partito Fascista Repubblicano;;;;;;;;;;;;;;;;;;;;;;x;;;;
 PGG_reactionary;Jahriyya Menhuan;;;;;;;;;;;;;x;;;;
 PGG_liberal;Gaige Pai Zhenying;;;;;;;;;;;;;x;;;;
 PGG_conservative;Qa'id Jami al-Muslimin;;;;;;;;;;;;;x;;;;
@@ -522,6 +523,7 @@ FRA_fascist;Parti Franciste;;;;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 FRA_reactionary_2;Droite Nationaliste;;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 FRA_anarcho_liberal;Républicain Radical;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 GER_fascist;NSDAP;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+GER_fascist_2;DNVP;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 POL_fascist;ONR-Falanga;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 HAI_conservative;Parti National;;;;;;;;;;;;;;;;;;;x;;;;
 HAI_liberal;Parti Liberal;;;;;;;;;;;;;;;;;;;x;;;;
@@ -1331,6 +1333,7 @@ JAP_socialist;Shakaitou;Faction marxiste;Marxist Faction;;;;;;;;;;;;x;;;;;;;;;;;
 JAP_anarcho_liberal;Ishin Seito Shimpu;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 JAP_communist;Kyousantou;Faction communiste;Kommunistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 JAP_fascist;Kokuhonsha;Faction fasciste;Faschistische Faction;;;;;;;;;;;;x;;;;;;;;;;;;;;
+JAP_fascist_2;Kokumin Domei;;;;;;;;;;;;x;;;;;;;;;;;;;;
 JNG;Jersey & Guernsey;Jersey & Guernsey;Jersey und Guernsey;;Jersey & Guernsey;;;;;;;;;x
 JNG_ADJ;Channel Islander;Jèrriais;Jerseyisch;;Jerseyés;;;;;;;;;x
 JNG_liberal;Liberal faction;Liberal Faction;Liberal Faction;;Liberal Faction;;;;;;;;;;;x
