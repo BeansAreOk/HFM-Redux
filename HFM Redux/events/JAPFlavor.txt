@@ -1411,7 +1411,13 @@ country_event = {
 			}
 			inherit = THIS
 		}
-		create_vassal = RYU
+		any_country = {
+			limit = {
+				tag = RYU 
+				exists = yes
+			}
+			annex_to = THIS
+		}
 	}
 }
 
@@ -1749,7 +1755,13 @@ country_event = {
 			end_war = THIS
 			country_event = 97652
 		}
-		create_vassal = RYU
+		any_country = {
+			limit = {
+				tag = RYU 
+				exists = yes
+			}
+			annex_to = THIS
+		}
 	}
 }
 

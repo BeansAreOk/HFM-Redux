@@ -402,6 +402,7 @@ political_decisions = {
 				}
 			}
 			has_country_flag = establish_the_kaitakushi
+			NOT = { has_global_flag = karafuto }
 		}
 		
 		allow = {
@@ -419,6 +420,7 @@ political_decisions = {
 		}
 		
 		effect = {
+			set_global_flag = karafuto
 			random_owned = {
 				limit = {
 					province_id = 1087
