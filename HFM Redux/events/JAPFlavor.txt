@@ -2146,6 +2146,11 @@ country_event = {
 				secede_province = THIS
 				any_pop = { limit = { NOT = { is_primary_culture = yes } } literacy = -0.99 }
 			}
+			1088 = {
+				add_core = THIS
+				secede_province = THIS
+				any_pop = { limit = { NOT = { is_primary_culture = yes } } literacy = -0.99 }
+			}
 		}
 		random_owned = {
 			limit = {
@@ -2163,6 +2168,18 @@ country_event = {
 					limit = { type = bureaucrats }
 					reduce_pop = 0.3
 				}
+			}
+			1088 = {
+				add_core = THIS
+				life_rating = 10
+				secede_province = THIS
+				any_pop = { limit = { NOT = { is_primary_culture = yes } } literacy = -0.99 }
+			}
+			1089 = {
+				add_core = THIS
+				life_rating = 10
+				secede_province = THIS
+				any_pop = { limit = { NOT = { is_primary_culture = yes } } literacy = -0.99 }
 			}
 		}
 	}
